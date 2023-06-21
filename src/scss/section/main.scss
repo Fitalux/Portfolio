@@ -10,6 +10,8 @@
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
+        object-fit: cover;
+        inset: 0;
         background-size: contain;
         background-position: center center;
         background-image: url(../../image/main_display.png);

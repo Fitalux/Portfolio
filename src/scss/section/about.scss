@@ -30,7 +30,7 @@
     color: #fff;
     font-size: 40px;
     margin-left: 2vw;
-    margin-top: -1.8vw;
+    margin-top: -1.5vw;
     font-weight: 100;
   }
 }
@@ -59,12 +59,16 @@
     img {
       margin-top: 18.0556vw;
       width: 30.5556vw;
-      height: 40.2778vw;
+      // height: 40.2778vw;
     }
 
     p {
       margin-top: 1.3889vw;
       color: #e418ff;
+      text-align: right;
+      font-size: 0.9722vw;
+      line-height: 1.5;
+      font-family: "GoYangIlSan";
     }
   }
 
