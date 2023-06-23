@@ -1,276 +1,293 @@
 #Allwork {
-  width: 1000%;
-  height: 200vh;
-  display: flex;
-  align-items: center;
   background-color: #000;
-
-  .allwork__item {
-    z-index: 1;
+  height: 100vh;
+  h1 {
     font-family: "Antonio", sans-serif;
+    font-size: 6vw;
     color: #fff;
+    text-align: center;
+  }
+
+  .title__line {
+    border-bottom: 0.4vw solid #e549e5;
+    margin-bottom: 1.5vw;
+  }
+
+  .work__wrap {
+    width: 1000%;
     display: flex;
-    justify-content: center;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    align-items: center;
+    background-color: #000;
 
-    .workbox__pink {
-      width: 28vw;
-      height: 40vw;
-      background-color: rgba(255, 73, 184, 0.3);
-      border: 0.4vw solid rgba(255, 73, 184, 0.7);
-      border-radius: 0.5vw;
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      padding-left: 2.5vw;
-      padding-right: 2.5vw;
-      padding-top: 1.5vw;
+    .allwork__item {
       z-index: 1;
-      overflow: hidden;
-      margin-right: 2vw;
-
-      &:before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 0 5vw 7vw;
-        border-color: transparent transparent rgba(255, 73, 184, 0.7)
-          transparent;
-      }
-
-      .workbox__top {
-        align-items: center;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-
-      .workbox__pink__bottom {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        font-size: 2.8vw;
-
-        .first__text {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 1vw;
-
-          .work__number {
-            background-color: #e549e5;
-            padding-left: 0.5vw;
-            padding-right: 0.5vw;
-          }
-        }
-
-        .second__text {
-          .work__title {
-            display: inline-block;
-            margin-bottom: 1vw;
-          }
-          .workbox__pink__line {
-            border-bottom: 0.5vw solid #e549e5;
-          }
-        }
-
-        .workbox__pink__btn {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 1vw;
-          padding-left: 0.3vw;
-          padding-right: 0.3vw;
-
-          button {
-            font-size: 2.5vw;
-            color: #fff;
-            background-color: rgba(229, 73, 229, 0.3);
-            border: 0.25vw solid #e549e5;
-            padding-left: 0.5vw;
-            padding-right: 0.5vw;
-            margin-bottom: 2vw;
-            font-family: "Antonio", sans-serif;
-          }
-        }
-      }
-    }
-
-    .workbox__org {
-      width: 28vw;
-      height: 40vw;
-      background-color: rgba(244, 105, 0, 0.3);
-      border: 0.4vw solid rgba(244, 105, 0, 0.7);
-      border-radius: 0.5vw;
-      position: relative;
-      overflow: hidden;
+      font-family: "Antonio", sans-serif;
+      color: #fff;
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      padding-left: 2.5vw;
-      padding-right: 2.5vw;
-      padding-top: 1.5vw;
-      z-index: 1;
-      overflow: hidden;
-      margin-right: 2vw;
+      justify-content: center;
+      padding-left: 3vw;
+      padding-right: 3vw;
 
-      &:before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 0 5vw 7vw;
-        border-color: transparent transparent rgba(244, 105, 0, 0.7) transparent;
-      }
-
-      .workbox__top {
-        align-items: center;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-
-      .workbox__org__bottom {
+      .workbox__pink {
+        width: 20vw;
+        height: 36vw;
+        background-color: rgba(255, 73, 184, 0.3);
+        border: 0.4vw solid rgba(255, 73, 184, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: column;
-        font-size: 2.8vw;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
 
-        .first__text {
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 5vw 7vw;
+          border-color: transparent transparent rgba(255, 73, 184, 0.7)
+            transparent;
+        }
+
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .workbox__pink__bottom {
           display: flex;
-          justify-content: space-between;
-          margin-top: 1vw;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
 
-          .work__number {
-            background-color: #f46900;
-            padding-left: 0.5vw;
-            padding-right: 0.5vw;
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #e549e5;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
           }
-        }
 
-        .second__text {
-          .work__title {
-            display: inline-block;
-            margin-bottom: 1vw;
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__pink__line {
+              border-bottom: 0.5vw solid #e549e5;
+            }
           }
-          .workbox__org__line {
-            border-bottom: 0.5vw solid #f46900;
-          }
-        }
 
-        .workbox__org__btn {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 1vw;
-          padding-left: 0.3vw;
-          padding-right: 0.3vw;
+          .workbox__pink__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+            padding-left: 0.3vw;
+            padding-right: 0.3vw;
 
-          button {
-            font-size: 2.5vw;
-            color: #fff;
-            background-color: rgba(244, 105, 0, 0.3);
-            border: 0.25vw solid #f46900;
-            padding-left: 0.5vw;
-            padding-right: 0.5vw;
-            margin-bottom: 2vw;
-            font-family: "Antonio", sans-serif;
+            button {
+              font-size: 1.8vw;
+              color: #fff;
+              background-color: rgba(229, 73, 229, 0.3);
+              border: 0.25vw solid #e549e5;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+            }
           }
         }
       }
-    }
 
-    .workbox__yel {
-      width: 28vw;
-      height: 40vw;
-      background-color: rgba(215, 251, 1, 0.3);
-      border: 0.4vw solid rgba(215, 251, 1, 0.7);
-      border-radius: 0.5vw;
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      padding-left: 2.5vw;
-      padding-right: 2.5vw;
-      padding-top: 1.5vw;
-      z-index: 1;
-      overflow: hidden;
-      margin-right: 2vw;
-
-      &:before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 0 5vw 7vw;
-        border-color: transparent transparent rgba(215, 251, 1, 0.7) transparent;
-      }
-
-      .workbox__top {
-        align-items: center;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-
-      .workbox__yel__bottom {
+      .workbox__org {
+        width: 20vw;
+        height: 40vw;
+        background-color: rgba(244, 105, 0, 0.3);
+        border: 0.4vw solid rgba(244, 105, 0, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: column;
-        font-size: 2.8vw;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
 
-        .first__text {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 1vw;
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 5vw 7vw;
+          border-color: transparent transparent rgba(244, 105, 0, 0.7)
+            transparent;
+        }
 
-          .work__number {
-            background-color: #d7fb01;
-            padding-left: 0.5vw;
-            padding-right: 0.5vw;
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
           }
         }
 
-        .second__text {
-          .work__title {
-            display: inline-block;
-            margin-bottom: 1vw;
+        .workbox__org__bottom {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
+
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #f46900;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
           }
-          .workbox__yel__line {
-            border-bottom: 0.5vw solid #d7fb01;
+
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__org__line {
+              border-bottom: 0.5vw solid #f46900;
+            }
+          }
+
+          .workbox__org__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+            padding-left: 0.3vw;
+            padding-right: 0.3vw;
+
+            button {
+              font-size: 2.5vw;
+              color: #fff;
+              background-color: rgba(244, 105, 0, 0.3);
+              border: 0.25vw solid #f46900;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+            }
+          }
+        }
+      }
+
+      .workbox__yel {
+        width: 20vw;
+        height: 40vw;
+        background-color: rgba(215, 251, 1, 0.3);
+        border: 0.4vw solid rgba(215, 251, 1, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 5vw 7vw;
+          border-color: transparent transparent rgba(215, 251, 1, 0.7)
+            transparent;
+        }
+
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
           }
         }
 
-        .workbox__yel__btn {
+        .workbox__yel__bottom {
           display: flex;
-          justify-content: space-between;
-          margin-top: 1vw;
-          padding-left: 0.3vw;
-          padding-right: 0.3vw;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
 
-          button {
-            font-size: 2.5vw;
-            color: #fff;
-            background-color: rgba(215, 251, 1, 0.3);
-            border: 0.25vw solid #d7fb01;
-            padding-left: 0.5vw;
-            padding-right: 0.5vw;
-            margin-bottom: 2vw;
-            font-family: "Antonio", sans-serif;
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #d7fb01;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
+          }
+
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__yel__line {
+              border-bottom: 0.5vw solid #d7fb01;
+            }
+          }
+
+          .workbox__yel__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+            padding-left: 0.3vw;
+            padding-right: 0.3vw;
+
+            button {
+              font-size: 2.5vw;
+              color: #fff;
+              background-color: rgba(215, 251, 1, 0.3);
+              border: 0.25vw solid #d7fb01;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+            }
           }
         }
       }
