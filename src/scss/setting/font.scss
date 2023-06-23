@@ -1,49 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Herr+Von+Muellerhoff&family=JetBrains+Mono:wght@300&display=swap');
-@import url('https://fonts.cdnfonts.com/css/excluded');
-
-
-@font-face {
-    font-family: 'GoYangIlSan';
-    font-weight: 300;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'GoYangIlSan';
-    font-weight: 400;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.ttf') format("truetype");
-    font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Herr+Von+Muellerhoff&family=JetBrains+Mono:wght@300&display=swap");
+@import url("https://fonts.cdnfonts.com/css/excluded");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 @font-face {
-    font-family: 'HeirofLight';
-    font-weight: 400;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.ttf') format("truetype");
-    font-display: swap;
+  font-family: "GoYangIlSan";
+  font-weight: 300;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanLight.ttf")
+      format("truetype");
+  font-display: swap;
 }
 @font-face {
-    font-family: 'HeirofLight';
-    font-weight: 700;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.ttf') format("truetype");
-    font-display: swap;
+  font-family: "GoYangIlSan";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/goyang/GoYangIlSanRegular.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HeirofLight";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightRegular.ttf")
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "HeirofLight";
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/heiroflight/HeirofLightBold.ttf")
+      format("truetype");
+  font-display: swap;
 }

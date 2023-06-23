@@ -14,7 +14,7 @@
         inset: 0;
         background-size: contain;
         background-position: center center;
-        background-image: url(../../image/main_display.png);
+        background-image: url(../../assets/image/main/main_display.png);
         z-index: 1;
       }
 
@@ -29,7 +29,7 @@
           border: 0.2083vw solid #e418ff;
           background-color: rgba(228, 24, 255, 0.3);
           text-align: center;
-          font-size: 1.7361vw;
+          font-size: 1.7vw;
           color: #e418ff;
           margin: 2.0833vw 3.4722vw 3.4722vw 3.4722vw;
           font-family: "Antonio", sans-serif;
@@ -93,6 +93,7 @@
         .menu {
           display: flex;
           justify-content: center;
+          align-items: center;
           position: fixed;
           z-index: 10;
           right: 1vw;
@@ -101,19 +102,21 @@
 
           span {
             color: #fff;
-            font-size: 2.7778vw;
+            font-size: 2.5vw;
             // margin: 2.0833vw 2.0833vw 3.4722vw 0.3472vw;
             font-family: "Antonio", sans-serif;
           }
 
           &::after {
             content: "";
+            background-position: center center;
             position: relative;
             width: 2.4306vw;
             height: 2.4306vw;
-            background-image: url(../../image/menu_dot.png);
+            background-image: url(../../assets/image/main/menu_dot.png);
             margin-top: 0.24305556000000017vw;
             margin-left: 1vw;
+            background-repeat: no-repeat;
           }
         }
       }
@@ -123,7 +126,7 @@
         justify-content: center;
         align-items: center;
         color: #fff;
-        margin: 10vw 2vw 5vw 15vw;
+        margin: 4vw 2vw 5vw 15vw;
 
         .title__text {
           z-index: 10;
@@ -157,7 +160,7 @@
         justify-content: right;
         position: relative;
         z-index: 1;
-        margin-top: 5%;
+        margin-top: 3%;
         padding-top: 2%;
 
         img {

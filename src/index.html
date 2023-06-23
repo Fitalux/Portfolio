@@ -6,29 +6,17 @@
     <title>PortFolio</title>
 
     <link rel="stylesheet" href="scss/style.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Herr+Von+Muellerhoff&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap"
-      rel="stylesheet"
-    />
+    <!-- stylesheet -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    <script src="main.js" type="module"></script>
   </head>
   <body>
     <main id="main">
       <section id="mainDisplay">
-        <div class="background cheak">
+        <div class="background grid">
           <div class="main__img"></div>
           <div class="main__top">
             <div class="port">
@@ -47,7 +35,7 @@
           </div>
 
           <div class="title__desc">
-            <img src="./image/desc_img.png" alt="프로필이미지" />
+            <img src="./assets/image/main/desc_img.png" alt="프로필이미지" />
             <span>
               특성화 고등학교의 디지털 미디어과를 졸업한 후, 다양한 분야의
               업무를 경험하다가<br />
@@ -63,6 +51,7 @@
           <a href="#" class="down"></a>
         </div>
       </section>
+      <!-- mainDisplay -->
 
       <section id="about">
         <div class="about__wrap">
@@ -80,30 +69,38 @@
           </div>
           <div class="about__img">
             <div>
-              <img src="./image/about__img01.png" alt="" />
-              <p>
+              <figure class="reveal reveal_LTR">
+                <img src="./assets/image/about/about__img01.png" alt="" />
+              </figure>
+              <p class="reveal reveal_LTR">
                 배울수록 많은 것을 볼 수 있다는 말을 마음에 새긴 채 , <br />
                 많은 것들을 보고, 듣고, 배우며 <br />
                 항상 넓은 시야로 세상을 바라보겠습니다.
               </p>
             </div>
             <div>
-              <img src="./image/about__img02.png" alt="" />
-              <p>
+              <figure class="reveal">
+                <img src="./assets/image/about/about__img02.png" alt="" />
+              </figure>
+              <p class="reveal">
                 항공기계설계를 전공으로 공부하였고, 다양한 분야의 업무를 <br />
                 하며 나의 적성에 맞는 일을 찾고자 노력을 했습니다.
               </p>
             </div>
             <div>
-              <img src="./image/about__img03.png" alt="" />
-              <p>
+              <figure class="reveal reveal_BTT">
+                <img src="./assets/image/about/about__img03.png" alt="" />
+              </figure>
+              <p class="reveal reveal_BTT">
                 항공기계설계를 전공으로 공부하였고, 다양한 분야의 업무를 <br />
                 하며 나의 적성에 맞는 일을 찾고자 노력을 했습니다.
               </p>
             </div>
             <div>
-              <img src="./image/about__img04.png" alt="" />
-              <p>
+              <figure class="reveal">
+                <img src="./assets/image/about/about__img04.png" alt="" />
+              </figure>
+              <p class="reveal">
                 진돗개처럼 집요하고 끈질긴 성격으로, 한 번 문 것은 절대 놓지
                 않으며,<br />
                 끝까지 파고 들어 원인을 파악하고 방법을 찾아 문제를 해결합니다.
@@ -113,8 +110,10 @@
               </p>
             </div>
             <div>
-              <img src="./image/about__img05.png" alt="" />
-              <p>
+              <figure class="reveal reveal_LTR">
+                <img src="./assets/image/about/about__img05.png" alt="" />
+              </figure>
+              <p class="reveal reveal_LTR">
                 시간이 오래 걸리더라도 결국 많은 조각의 퍼즐을 맞추어내는 <br />
                 인내심, 진중함, 관찰력은 퍼즐과도 같은 코드를 쉽게 포기하지
                 않고<br />
@@ -125,6 +124,72 @@
           </div>
         </div>
       </section>
+      <!-- about -->
+
+      <section id="Allwork">
+        <div class="allwork__item">
+          <div class="workbox__pink">
+            <div class="workbox__top">
+              <img src="./assets/image/allwork/work00001.png" alt="" />
+            </div>
+            <div class="workbox__pink__bottom">
+              <div class="first__text">
+                <span class="work__cate">GSAP</span>
+                <span class="work__number">00001</span>
+              </div>
+              <div class="second__text">
+                <span class="work__title">PARALLX Effect</span>
+                <div class="workbox__pink__line"></div>
+              </div>
+              <div class="workbox__pink__btn">
+                <button>READ</button>
+                <button>PROJECT LINK</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="workbox__org">
+            <div class="workbox__top">
+              <img src="./assets/image/allwork/work00002.png" alt="" />
+            </div>
+            <div class="workbox__org__bottom">
+              <div class="first__text">
+                <span class="work__cate">JAVASCRIPT</span>
+                <span class="work__number">00002</span>
+              </div>
+              <div class="second__text">
+                <span class="work__title">GAME Effect</span>
+                <div class="workbox__org__line"></div>
+              </div>
+              <div class="workbox__org__btn">
+                <button>READ</button>
+                <button>PROJECT LINK</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="workbox__yel">
+            <div class="workbox__top">
+              <img src="./assets/image/allwork/work00002.png" alt="" />
+            </div>
+            <div class="workbox__yel__bottom">
+              <div class="first__text">
+                <span class="work__cate">SITE</span>
+                <span class="work__number">00003</span>
+              </div>
+              <div class="second__text">
+                <span class="work__title">WEB STANDARD SITE</span>
+                <div class="workbox__yel__line"></div>
+              </div>
+              <div class="workbox__yel__btn">
+                <button>READ</button>
+                <button>PROJECT LINK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Allwork -->
     </main>
   </body>
 </html>

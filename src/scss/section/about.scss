@@ -8,36 +8,40 @@
 
     span {
       font-family: "Aldrich", sans-serif;
+      font-size: 1.25vw;
     }
 
     p {
       font-family: "GoYangIlSan";
       letter-spacing: 0.17vw;
+      font-size: 1.25vw;
     }
   }
 
   .line {
     width: 100%;
-    height: 30px;
+    height: 2vw;
     position: relative;
     top: 0;
     left: 1vw;
-    background-image: url(../../image/about__line.svg);
+    background-image: url(../../assets/image/about/about__line.svg);
     background-repeat: no-repeat;
   }
 
   .about__top__text {
     color: #fff;
-    font-size: 40px;
+    font-size: 2.7778vw;
     margin-left: 2vw;
     margin-top: -1.5vw;
     font-weight: 100;
+    font-family: "Poppins", sans-serif;
   }
 }
 
 .about__img {
   display: flex;
   flex-wrap: wrap;
+  z-index: 10;
 
   > div {
     &:nth-child(1) {
@@ -59,7 +63,6 @@
     img {
       margin-top: 18.0556vw;
       width: 30.5556vw;
-      // height: 40.2778vw;
     }
 
     p {
@@ -69,6 +72,7 @@
       font-size: 0.9722vw;
       line-height: 1.5;
       font-family: "GoYangIlSan";
+      z-index: 1;
     }
   }
 
@@ -77,7 +81,7 @@
     font-size: 20.8333vw;
     font-family: "Antonio", sans-serif;
     color: #fff;
-    z-index: 10;
+    z-index: 1;
     margin-top: -180vw;
     margin-left: 20vw;
   }

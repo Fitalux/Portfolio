@@ -6,6 +6,7 @@
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
 }
 /* 여백 초기화 */
 body,
@@ -114,10 +115,10 @@ button {
   text-indent: -99999px;
 }
 
-.cheak {
+.grid {
   // background-color: #000;
-  background-image: linear-gradient(#e418ff41 1px, transparent 1px),
-    linear-gradient(90deg, #e418ff41 1px, transparent 1px);
+  background-image: linear-gradient(#e418ff3c 1px, transparent 1px),
+    linear-gradient(90deg, #e418ff3c 1px, transparent 1px);
   background-size: 120px 120px;
   background-position: -1px -1px;
 }
