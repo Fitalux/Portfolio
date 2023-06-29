@@ -11,189 +11,722 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    <!-- Scroll -->
+
     <script src="main.js" type="module"></script>
   </head>
   <body>
-    <main id="main">
+    <div id="contents">
       <section id="mainDisplay">
-        <div class="background grid">
-          <div class="main__img"></div>
-          <div class="main__top">
-            <div class="port">
-              <span>P</span>O<span>R</span>TF<span>O</span>LI<span>O</span>
-            </div>
-            <div class="menu">
-              <span>MENU</span>
-            </div>
+        <div class="main__top">
+          <div class="port__pink_v">
+            <span>P</span>O<span>R</span>TF<span>O</span>LI<span>O</span>
           </div>
-
-          <div class="title">
-            <div class="title__text">
-              <span>WELCOME TO</span>
-              <h1>portfolio</h1>
-            </div>
-          </div>
-
-          <div class="title__desc">
-            <img src="./assets/image/main/desc_img.png" alt="프로필이미지" />
-            <span>
-              특성화 고등학교의 디지털 미디어과를 졸업한 후, 다양한 분야의
-              업무를 경험하다가<br />
-              우연히 직업 훈련학교에서 일하게 되었습니다. <br />
-              청소를 위해 들어갔던 강의실 칠판에 남은 흔적들과 펼쳐진 책들에
-              눈길을 두는 동안,<br />
-              마음 깊은 곳에서 차오르던 고양감을 잊지 않고 오직 '배우고 싶다'는
-              일념 하나로<br />
-              공부할 기회를 만나자마자 망설임 없이 뛰어들어 약 6개월간의 여정을
-              시작했습니다. <br />
-            </span>
-          </div>
-          <a href="#" class="down"></a>
-        </div>
-      </section>
-      <!-- mainDisplay -->
-
-      <section id="about">
-        <div class="about__wrap">
-          <div class="about__small_title">
-            <span>PER ARDUA AD ASTRA</span>
-            <p>역경을 헤치고 별을 향해</p>
-          </div>
-          <div class="line"></div>
-          <div class="about__top__text">
-            CyberBrokers is a metaverse-native media &<br />
-            entertainment company that is building a captivating <br />
-            universe through beautiful collectibles, engaging <br />
-            content, and interactive experiences.Collect / Create / <br />
-            Expand Your Reality.
-          </div>
-          <div class="about__img">
-            <div>
-              <figure class="reveal reveal_LTR">
-                <img src="./assets/image/about/about__img01.png" alt="" />
-              </figure>
-              <p class="reveal reveal_LTR">
-                배울수록 많은 것을 볼 수 있다는 말을 마음에 새긴 채 , <br />
-                많은 것들을 보고, 듣고, 배우며 <br />
-                항상 넓은 시야로 세상을 바라보겠습니다.
-              </p>
-            </div>
-            <div>
-              <figure class="reveal">
-                <img src="./assets/image/about/about__img02.png" alt="" />
-              </figure>
-              <p class="reveal">
-                항공기계설계를 전공으로 공부하였고, 다양한 분야의 업무를 <br />
-                하며 나의 적성에 맞는 일을 찾고자 노력을 했습니다.
-              </p>
-            </div>
-            <div>
-              <figure class="reveal reveal_BTT">
-                <img src="./assets/image/about/about__img03.png" alt="" />
-              </figure>
-              <p class="reveal reveal_BTT">
-                항공기계설계를 전공으로 공부하였고, 다양한 분야의 업무를 <br />
-                하며 나의 적성에 맞는 일을 찾고자 노력을 했습니다.
-              </p>
-            </div>
-            <div>
-              <figure class="reveal">
-                <img src="./assets/image/about/about__img04.png" alt="" />
-              </figure>
-              <p class="reveal">
-                진돗개처럼 집요하고 끈질긴 성격으로, 한 번 문 것은 절대 놓지
-                않으며,<br />
-                끝까지 파고 들어 원인을 파악하고 방법을 찾아 문제를 해결합니다.
-                <br />
-                이는 어떤 문제든 회피하지 않고 정면으로 맞서 부딪힘으로,<br />
-                제가 성장하는 계기가 됩니다.
-              </p>
-            </div>
-            <div>
-              <figure class="reveal reveal_LTR">
-                <img src="./assets/image/about/about__img05.png" alt="" />
-              </figure>
-              <p class="reveal reveal_LTR">
-                시간이 오래 걸리더라도 결국 많은 조각의 퍼즐을 맞추어내는 <br />
-                인내심, 진중함, 관찰력은 퍼즐과도 같은 코드를 쉽게 포기하지
-                않고<br />
-                인내심을 가지고 관찰하여 하나의 그림처럼 완성하게 합니다. <br />
-              </p>
-            </div>
-            <span class="about__main__text"> About Me </span>
+          <div class="menu">
+            <span>MENU</span>
           </div>
         </div>
-      </section>
-      <!-- about -->
+        <div class="title">
+          <span>WELCOME TO</span>
+          <h1>portfolio</h1>
+        </div>
 
+        <div class="intro">
+          <img src="./assets/image/main/desc_img.png" alt="프로필이미지" />
+          <p>
+            특성화 고등학교의 디지털 미디어과를 졸업한 후, 다양한 분야의 업무를
+            경험하다가<br />
+            우연히 직업 훈련학교에서 일하게 되었습니다. <br />
+            청소를 위해 들어갔던 강의실 칠판에 남은 흔적들과 펼쳐진 책들에
+            눈길을 두는 동안,<br />
+            마음 깊은 곳에서 차오르던 고양감을 잊지 않고 오직 '배우고 싶다'는
+            일념 하나로<br />
+            공부할 기회를 만나자마자 망설임 없이 뛰어들어 약 6개월간의 여정을
+            시작했습니다. <br />
+          </p>
+        </div>
+        <canvas id="canvas"></canvas>
+      </section>
+    </div>
+    <!-- mainDisplay -->
+
+    <section id="about">
+      <div class="about__small_title">
+        <span>PER ARDUA AD ASTRA</span>
+        <p>역경을 헤치고 별을 향해</p>
+      </div>
+      <div class="line"></div>
+      <div class="about__top__text">
+        CyberBrokers is a metaverse-native media &<br />
+        entertainment company that is building a captivating <br />
+        universe through beautiful collectibles, engaging <br />
+        content, and interactive experiences.Collect / Create / <br />
+        Expand Your Reality.
+      </div>
+      <div class="about__img">
+        <div class="about__desc">
+          <figure class="reveal reveal_LTR">
+            <img src="./assets/image/about/about__img01.png" alt="" />
+          </figure>
+          <div class="text__box">
+            <span>persistent</span>
+            <p class="reveal reveal_LTR">
+              어린 시절부터 무언가를 조립하고 만드는 것을 좋아했던 저는 여전히
+              <br />
+              종종 가구나 3D 퍼즐 등을 조립하곤 합니다. <br />
+              설명서를 충실히 따르더라도 제대로 되지 않아 당황하는 일이 <br />
+              생기는데 그 때마다 절대 그냥 넘어가는 법 없이 설명서를 몇<br />
+              번이고 다시 읽어보고 이것저것 맞춰보며 꼭 해결 방법을 찾아<br />
+              완성하곤 했습니다. 이러한 집요함은 코딩을 할 때도 마찬가지로<br />
+              코딩을 하던 중, 오류가 발생하거나 막히는 곳이 있으면 반드시<br />
+              끝까지 집요하게 매달려 원인을 찾고 문제를 해결하여 짚고<br />
+              넘어감으로 저를 한 단계 성장하게 하고 더 많은 지식을 습득하게<br />
+              하는 밑거름이 되었습니다.
+            </p>
+          </div>
+        </div>
+        <div class="about__desc">
+          <figure class="reveal">
+            <img src="./assets/image/about/about__img02.png" alt="" />
+          </figure>
+          <div class="text__box">
+            <span>tenacity</span>
+            <p class="reveal reveal_LTR">
+              어린 시절부터 무언가를 조립하고 만드는 것을 좋아했던 저는 여전히
+              <br />
+              종종 가구나 3D 퍼즐 등을 조립하곤 합니다. <br />
+              설명서를 충실히 따르더라도 제대로 되지 않아 당황하는 일이 <br />
+              생기는데 그 때마다 절대 그냥 넘어가는 법 없이 설명서를 몇<br />
+              번이고 다시 읽어보고 이것저것 맞춰보며 꼭 해결 방법을 찾아<br />
+              완성하곤 했습니다. 이러한 집요함은 코딩을 할 때도 마찬가지로<br />
+              코딩을 하던 중, 오류가 발생하거나 막히는 곳이 있으면 반드시<br />
+              끝까지 집요하게 매달려 원인을 찾고 문제를 해결하여 짚고<br />
+              넘어감으로 저를 한 단계 성장하게 하고 더 많은 지식을 습득하게<br />
+              하는 밑거름이 되었습니다.
+            </p>
+          </div>
+        </div>
+        <div class="about__desc">
+          <figure class="reveal reveal_BTT">
+            <img src="./assets/image/about/about__img03.png" alt="" />
+          </figure>
+          <div class="text__box">
+            <span>efficient</span>
+            <p class="reveal reveal_LTR">
+              어린 시절부터 무언가를 조립하고 만드는 것을 좋아했던 저는 여전히
+              <br />
+              종종 가구나 3D 퍼즐 등을 조립하곤 합니다. <br />
+              설명서를 충실히 따르더라도 제대로 되지 않아 당황하는 일이 <br />
+              생기는데 그 때마다 절대 그냥 넘어가는 법 없이 설명서를 몇<br />
+              번이고 다시 읽어보고 이것저것 맞춰보며 꼭 해결 방법을 찾아<br />
+              완성하곤 했습니다. 이러한 집요함은 코딩을 할 때도 마찬가지로<br />
+              코딩을 하던 중, 오류가 발생하거나 막히는 곳이 있으면 반드시<br />
+              끝까지 집요하게 매달려 원인을 찾고 문제를 해결하여 짚고<br />
+              넘어감으로 저를 한 단계 성장하게 하고 더 많은 지식을 습득하게<br />
+              하는 밑거름이 되었습니다.
+            </p>
+          </div>
+        </div>
+        <div class="about__desc">
+          <figure class="reveal">
+            <img src="./assets/image/about/about__img04.png" alt="" />
+          </figure>
+          <div class="text__box">
+            <span>desire for winning</span>
+            <p class="reveal reveal_LTR">
+              어린 시절부터 무언가를 조립하고 만드는 것을 좋아했던 저는 여전히
+              <br />
+              종종 가구나 3D 퍼즐 등을 조립하곤 합니다. <br />
+              설명서를 충실히 따르더라도 제대로 되지 않아 당황하는 일이 <br />
+              생기는데 그 때마다 절대 그냥 넘어가는 법 없이 설명서를 몇<br />
+              번이고 다시 읽어보고 이것저것 맞춰보며 꼭 해결 방법을 찾아<br />
+              완성하곤 했습니다. 이러한 집요함은 코딩을 할 때도 마찬가지로<br />
+              코딩을 하던 중, 오류가 발생하거나 막히는 곳이 있으면 반드시<br />
+              끝까지 집요하게 매달려 원인을 찾고 문제를 해결하여 짚고<br />
+              넘어감으로 저를 한 단계 성장하게 하고 더 많은 지식을 습득하게<br />
+              하는 밑거름이 되었습니다.
+            </p>
+          </div>
+        </div>
+        <div class="about__desc">
+          <figure class="reveal reveal_LTR">
+            <img src="./assets/image/about/about__img05.png" alt="" />
+          </figure>
+          <div class="text__box">
+            <span>prudent</span>
+            <p class="reveal reveal_LTR">
+              어린 시절부터 무언가를 조립하고 만드는 것을 좋아했던 저는 여전히
+              <br />
+              종종 가구나 3D 퍼즐 등을 조립하곤 합니다. <br />
+              설명서를 충실히 따르더라도 제대로 되지 않아 당황하는 일이 <br />
+              생기는데 그 때마다 절대 그냥 넘어가는 법 없이 설명서를 몇<br />
+              번이고 다시 읽어보고 이것저것 맞춰보며 꼭 해결 방법을 찾아<br />
+              완성하곤 했습니다. 이러한 집요함은 코딩을 할 때도 마찬가지로<br />
+              코딩을 하던 중, 오류가 발생하거나 막히는 곳이 있으면 반드시<br />
+              끝까지 집요하게 매달려 원인을 찾고 문제를 해결하여 짚고<br />
+              넘어감으로 저를 한 단계 성장하게 하고 더 많은 지식을 습득하게<br />
+              하는 밑거름이 되었습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+
+    <main id="horizontal">
       <section id="Allwork">
         <h1>ALL WORKS</h1>
         <div class="title__line"></div>
         <div class="work__wrap">
           <div class="allwork__item">
-            <div class="workbox__pink">
-              <div class="workbox__top">
-                <img src="./assets/image/allwork/work00001.png" alt="" />
+            <section class="color__box">
+              <div class="workbox__pink">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00001.png" alt="" />
+                </div>
+                <div class="workbox__pink__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">GSAP</span>
+                    <span class="work__number">00001</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">PARALLX Effect</span>
+                    <div class="workbox__pink__line"></div>
+                  </div>
+                  <div class="workbox__pink__btn">
+                    <button class="readBtn">
+                      <a href="./page/workRead(GSAP).html" target="_blank"
+                        >READ</a
+                      >
+                    </button>
+                    <button class="proBtn">
+                      <a
+                        href="https://fitalux.github.io/web2023/javascript/parallax/gsap01.html"
+                        target="_blank"
+                        >PROJECT LINK</a
+                      >
+                    </button>
+                  </div>
+                </div>
               </div>
-              <div class="workbox__pink__bottom">
-                <div class="first__text">
-                  <span class="work__cate">GSAP</span>
-                  <span class="work__number">00001</span>
-                </div>
-                <div class="second__text">
-                  <span class="work__title">PARALLX Effect</span>
-                  <div class="workbox__pink__line"></div>
-                </div>
-                <div class="workbox__pink__btn">
-                  <button>READ</button>
-                  <button>PROJECT LINK</button>
-                </div>
-              </div>
-            </div>
+            </section>
 
-            <div class="workbox__org">
-              <div class="workbox__top">
-                <img src="./assets/image/allwork/work00002.png" alt="" />
+            <section class="color__box">
+              <div class="workbox__org">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00002.png" alt="" />
+                </div>
+                <div class="workbox__org__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">JAVASCRIPT</span>
+                    <span class="work__number">00002</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">GAME Effect</span>
+                    <div class="workbox__org__line"></div>
+                  </div>
+                  <div class="workbox__org__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
               </div>
-              <div class="workbox__org__bottom">
-                <div class="first__text">
-                  <span class="work__cate">JAVASCRIPT</span>
-                  <span class="work__number">00002</span>
-                </div>
-                <div class="second__text">
-                  <span class="work__title">GAME Effect</span>
-                  <div class="workbox__org__line"></div>
-                </div>
-                <div class="workbox__org__btn">
-                  <button>READ</button>
-                  <button>PROJECT LINK</button>
-                </div>
-              </div>
-            </div>
+            </section>
 
-            <div class="workbox__yel">
-              <div class="workbox__top">
-                <img src="./assets/image/allwork/work00002.png" alt="" />
+            <section class="color__box">
+              <div class="workbox__yel">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00003.png" alt="" />
+                </div>
+                <div class="workbox__yel__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">SITE</span>
+                    <span class="work__number">00003</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">WEB STANDARD SITE</span>
+                    <div class="workbox__yel__line"></div>
+                  </div>
+                  <div class="workbox__yel__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
               </div>
-              <div class="workbox__yel__bottom">
-                <div class="first__text">
-                  <span class="work__cate">SITE</span>
-                  <span class="work__number">00003</span>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__mint">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00004.png" alt="" />
                 </div>
-                <div class="second__text">
-                  <span class="work__title">WEB STANDARD SITE</span>
-                  <div class="workbox__yel__line"></div>
-                </div>
-                <div class="workbox__yel__btn">
-                  <button>READ</button>
-                  <button>PROJECT LINK</button>
+                <div class="workbox__mint__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">ANIMATION</span>
+                    <span class="work__number">00004</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">3D ANIMATION</span>
+                    <div class="workbox__mint__line"></div>
+                  </div>
+                  <div class="workbox__mint__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__sky">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00005.png" alt="" />
+                </div>
+                <div class="workbox__sky__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">JAVASCRIPT</span>
+                    <span class="work__number">00005</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">MOUSE Effect</span>
+                    <div class="workbox__sky__line"></div>
+                  </div>
+                  <div class="workbox__sky__btn">
+                    <button class="readBtn">
+                      <a href="./page/workRead.html" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__blue">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00006.png" alt="" />
+                </div>
+                <div class="workbox__blue__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">JAVASCRIPT</span>
+                    <span class="work__number">00006</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">QUIZ Effect</span>
+                    <div class="workbox__blue__line"></div>
+                  </div>
+                  <div class="workbox__blue__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__vio">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00007.png" alt="" />
+                </div>
+                <div class="workbox__vio__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">SITE</span>
+                    <span class="work__number">00007</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">REACT SITE</span>
+                    <div class="workbox__vio__line"></div>
+                  </div>
+                  <div class="workbox__vio__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__pink_v">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00001.png" alt="" />
+                </div>
+                <div class="workbox__pink__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">JAVASCRIPT</span>
+                    <span class="work__number">00008</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">SLIDER Effect</span>
+                    <div class="workbox__pink__line"></div>
+                  </div>
+                  <div class="workbox__pink__btn">
+                    <button class="readBtn p1">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn p1">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__org">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00002.png" alt="" />
+                </div>
+                <div class="workbox__org__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">PHP</span>
+                    <span class="work__number">00009</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">PHP TEAM Project</span>
+                    <div class="workbox__org__line"></div>
+                  </div>
+                  <div class="workbox__org__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__yel">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00003.png" alt="" />
+                </div>
+                <div class="workbox__yel__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">SITE</span>
+                    <span class="work__number">00010</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">NEXT.JS SITE</span>
+                    <div class="workbox__yel__line"></div>
+                  </div>
+                  <div class="workbox__yel__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__mint">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00004.png" alt="" />
+                </div>
+                <div class="workbox__mint__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">SITE</span>
+                    <span class="work__number">00011</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">VUE SITE</span>
+                    <div class="workbox__mint__line"></div>
+                  </div>
+                  <div class="workbox__mint__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__sky">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00005.png" alt="" />
+                </div>
+                <div class="workbox__sky__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">JAVASCRIPT</span>
+                    <span class="work__number">00012</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">PARALLAX Effect</span>
+                    <div class="workbox__sky__line"></div>
+                  </div>
+                  <div class="workbox__sky__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__blue">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00006.png" alt="" />
+                </div>
+                <div class="workbox__blue__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">PHP</span>
+                    <span class="work__number">00013</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">PHP BLOG SITE</span>
+                    <div class="workbox__blue__line"></div>
+                  </div>
+                  <div class="workbox__blue__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="color__box">
+              <div class="workbox__vio">
+                <div class="workbox__top">
+                  <img src="./assets/image/allwork/work00007.png" alt="" />
+                </div>
+                <div class="workbox__vio__bottom">
+                  <div class="first__text">
+                    <span class="work__cate">JAVASCRIPT</span>
+                    <span class="work__number">00014</span>
+                  </div>
+                  <div class="second__text">
+                    <span class="work__title">SEACRH Effect</span>
+                    <div class="workbox__vio__line"></div>
+                  </div>
+                  <div class="workbox__vio__btn">
+                    <button class="readBtn">
+                      <a href="#" target="_blank">READ</a>
+                    </button>
+                    <button class="proBtn">
+                      <a href="#" target="_blank">PROJECT LINK</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </section>
       <!-- Allwork -->
     </main>
+
+    <section id="contact">
+      <div class="port__pink">
+        <span>P</span>O<span>R</span>TF<span>O</span>LI<span>O</span>
+      </div>
+      <div class="line"></div>
+    </section>
   </body>
 </html>
+
+<script id="vertex" type="text/glsl">
+  #define NORMAL
+
+  #if defined( FLAT_SHADED ) || defined( USE_BUMPMAP ) || defined( TANGENTSPACE_NORMALMAP )
+
+      varying vec3 vViewPosition;
+
+  #endif
+
+  #include <common>
+  #include <uv_pars_vertex>
+  #include <displacementmap_pars_vertex>
+  #include <normal_pars_vertex>
+  #include <morphtarget_pars_vertex>
+  #include <skinning_pars_vertex>
+  #include <logdepthbuf_pars_vertex>
+  #include <clipping_planes_pars_vertex>
+
+  void main() {
+
+      #include <uv_vertex>
+
+      #include <beginnormal_vertex>
+      #include <morphnormal_vertex>
+      #include <skinbase_vertex>
+      #include <skinnormal_vertex>
+      #include <defaultnormal_vertex>
+      #include <normal_vertex>
+
+      #include <begin_vertex>
+      #include <morphtarget_vertex>
+      #include <skinning_vertex>
+      #include <displacementmap_vertex>
+      #include <project_vertex>
+      #include <logdepthbuf_vertex>
+      #include <clipping_planes_vertex>
+
+  #if defined( FLAT_SHADED ) || defined( USE_BUMPMAP ) || defined( TANGENTSPACE_NORMALMAP )
+
+      vViewPosition = - mvPosition.xyz;
+
+  #endif
+
+  }
+</script>
+<script id="fragment" type="text/glsl">
+  uniform vec3 colorA;
+
+  #define NORMAL
+
+  #if defined( FLAT_SHADED ) || defined( USE_BUMPMAP ) || defined( TANGENTSPACE_NORMALMAP )
+
+      varying vec3 vViewPosition;
+
+  #endif
+
+  #include <packing>
+  #include <uv_pars_fragment>
+  #include <normal_pars_fragment>
+  #include <bumpmap_pars_fragment>
+  #include <normalmap_pars_fragment>
+  #include <logdepthbuf_pars_fragment>
+  #include <clipping_planes_pars_fragment>
+
+  void main() {
+
+      #include <clipping_planes_fragment>
+      #include <logdepthbuf_fragment>
+      #include <normal_fragment_begin>
+      #include <normal_fragment_maps>
+
+      gl_FragColor = vec4( normalize( normal ) * colorA + 0.5, 1.0 );
+
+      #ifdef OPAQUE
+
+          gl_FragColor.a = 1.0;
+
+      #endif
+
+  }
+</script>
+<script type="module">
+  import * as THREE from "https://cdn.skypack.dev/three@0.133.1";
+  // import {OrbitControls} from "https://cdn.skypack.dev/three@0.133.1/examples/jsm/controls/OrbitControls.js";
+  import openSimplexNoise from "https://cdn.skypack.dev/open-simplex-noise";
+
+  let scene = new THREE.Scene();
+  let camera = new THREE.PerspectiveCamera(
+    75,
+    innerWidth / innerHeight,
+    0.1,
+    1000
+  );
+  camera.position.set(0, 0, 6);
+  let renderer = new THREE.WebGLRenderer({
+    antialias: true,
+    alpha: true,
+    canvas: document.getElementById("canvas"),
+  });
+  renderer.setSize(innerWidth, innerHeight);
+  // document.body.appendChild(renderer.domElement);
+
+  // new OrbitControls(camera, renderer.domElement);
+
+  let sphereGeometry = new THREE.SphereGeometry(1.5, 100, 100);
+  sphereGeometry.positionData = [];
+  let v3 = new THREE.Vector3();
+  for (let i = 0; i < sphereGeometry.attributes.position.count; i++) {
+    v3.fromBufferAttribute(sphereGeometry.attributes.position, i);
+    sphereGeometry.positionData.push(v3.clone());
+  }
+  let sphereMesh = new THREE.ShaderMaterial({
+    uniforms: {
+      colorA: {
+        type: "vec3",
+        value: new THREE.Vector3(0.5, 0.5, 0.5),
+      },
+    },
+    vertexShader: document.getElementById("vertex").textContent,
+    fragmentShader: document.getElementById("fragment").textContent,
+  });
+  let sphere = new THREE.Mesh(sphereGeometry, sphereMesh);
+  scene.add(sphere);
+
+  let planeGeometry = new THREE.BoxGeometry(7, 7, 2, 10, 10, 2);
+  planeGeometry.translate(0, 0, -3);
+  planeGeometry.positionData = [];
+  for (let i = 0; i < planeGeometry.attributes.position.count; i++) {
+    v3.fromBufferAttribute(planeGeometry.attributes.position, i);
+    planeGeometry.positionData.push(v3.clone());
+  }
+  let planeMesh = new THREE.MeshBasicMaterial({
+    color: 0x898989,
+    wireframe: true,
+  });
+  let plane = new THREE.Mesh(planeGeometry, planeMesh);
+  // scene.add(plane);
+
+  let noise = openSimplexNoise.makeNoise4D(Date.now());
+  let clock = new THREE.Clock();
+
+  window.addEventListener("resize", () => {
+    camera.aspect = innerWidth / innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(innerWidth, innerHeight);
+  });
+
+  renderer.setAnimationLoop(() => {
+    let t = clock.getElapsedTime() / 3;
+    sphereGeometry.positionData.forEach((p, idx) => {
+      let setNoise = noise(p.x, p.y, p.z, t * 1.05);
+      v3.copy(p).addScaledVector(p, setNoise);
+      sphereGeometry.attributes.position.setXYZ(idx, v3.x, v3.y, v3.z);
+    });
+    sphereGeometry.computeVertexNormals();
+    sphereGeometry.attributes.position.needsUpdate = true;
+
+    planeGeometry.positionData.forEach((p, idx) => {
+      let sineWave = (Math.sin(t) * Math.PI) / 100 + 1;
+      let setNoise = noise(p.x, p.y, p.z, t / 3);
+      v3.copy(p).addScaledVector(p, setNoise);
+      planeGeometry.attributes.position.setXYZ(idx, v3.x, v3.y, v3.z);
+    });
+    planeGeometry.attributes.position.needsUpdate = true;
+    renderer.render(scene, camera);
+  });
+</script>

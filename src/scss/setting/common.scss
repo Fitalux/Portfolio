@@ -1,0 +1,567 @@
+.port__pink_v {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #e418ff;
+  background-color: rgba(228, 24, 255, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #e418ff;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #e418ff, 0 0 0.5em #e418ff,
+    0 0 0.1em #e418ff, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}
+
+.port__pink {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #ff49b8;
+  background-color: rgba(255, 73, 184, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #ff49b8;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff49b8, 0 0 0.5em #ff49b8,
+    0 0 0.1em #ff49b8, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}
+
+.port__org {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #f46900;
+  background-color: rgba(244, 105, 0, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #f46900;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f46900, 0 0 0.5em #f46900,
+    0 0 0.1em #f46900, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}
+
+.port__yel {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #d7fb01;
+  background-color: rgba(215, 251, 1, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #d7fb01;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #d7fb01, 0 0 0.5em #d7fb01,
+    0 0 0.1em #d7fb01, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}
+
+.port__mint {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #4be1a4;
+  background-color: rgba(75, 225, 164, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #4be1a4;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4be1a4, 0 0 0.5em #4be1a4,
+    0 0 0.1em #4be1a4, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}
+
+.port__sky {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #62ffff;
+  background-color: rgba(98, 255, 255, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #62ffff;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #62ffff, 0 0 0.5em #62ffff,
+    0 0 0.1em #62ffff, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}
+
+.port__blue {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #8061ff;
+  background-color: rgba(128, 97, 255, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #8061ff;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #8061ff, 0 0 0.5em #8061ff,
+    0 0 0.1em #8061ff, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}
+
+.port__vio {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 12vw;
+  height: 3.5vw;
+  line-height: 1.7;
+  border: 0.2083vw solid #d271fe;
+  background-color: rgba(210, 113, 254, 0.3);
+  text-align: center;
+  font-size: 1.7vw;
+  color: #d271fe;
+  margin: 1vw;
+  font-family: "Aldrich", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #d271fe, 0 0 0.5em #d271fe,
+    0 0 0.1em #d271fe, 0 10px 3px #000;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  span {
+    animation: blink linear infinite 3s;
+  }
+  span:nth-of-type(2) {
+    animation: blink linear infinite 5s;
+  }
+  span:nth-of-type(3) {
+    animation: blink linear infinite 8s;
+  }
+  span:nth-of-type(4) {
+    animation: blink linear infinite 7s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+}

@@ -1,0 +1,360 @@
+#mouseEffect {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 350%;
+  height: 100vh;
+  margin-bottom: 3vw;
+
+  .read__top {
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 1.5vw;
+    flex-wrap: wrap;
+    .title {
+      color: #62ffff;
+      font-family: "Antonio", sans-serif;
+      font-size: 2.0833vw;
+      padding-top: 1vw;
+      margin-left: 18vw;
+    }
+  }
+
+  .display {
+    border-top: 3px solid #62ffff;
+    width: 100%;
+    display: flex;
+    font-family: "GoYangIlSan";
+
+    .display__box__m1 {
+      display: flex;
+      padding-left: 3vw;
+      .display__img__m1 {
+        flex: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5vw;
+        position: relative;
+        img {
+          width: 80vw;
+          margin-left: 3vw;
+        }
+      }
+
+      .display__title__m1 {
+        position: absolute;
+        color: #fff;
+        z-index: 10;
+        text-align: right;
+        top: 2vw;
+        right: 1vw;
+        P {
+          font-family: "excluded";
+          font-size: 2.0833vw;
+        }
+        span {
+          font-size: 5.5556vw;
+          font-family: "Antonio", sans-serif;
+          margin-top: -3vw;
+        }
+      }
+
+      .display__desc__m1 {
+        p {
+          font-size: 1vw;
+          color: #62ffff;
+          font-family: "GoYangIlSan";
+          position: absolute;
+          z-index: 10;
+          left: 7vw;
+          bottom: -3vw;
+        }
+      }
+
+      .display__btn__m1 {
+        position: absolute;
+        bottom: -5vw;
+        right: 6vw;
+        display: flex;
+        margin-top: 3vw;
+
+        .siteBtn {
+          background-color: #62ffff;
+          font-size: 2.0833vw;
+          width: 12vw;
+          height: 3vw;
+          border-radius: 50px;
+          margin-right: 1vw;
+
+          a {
+            font-family: "Antonio", sans-serif;
+          }
+        }
+        .codeBtn {
+          width: 12vw;
+          height: 3vw;
+          background-color: rgba(98, 255, 255, 0.3);
+          border: 3px solid #62ffff;
+          border-radius: 5px;
+
+          a {
+            font-family: "Antonio", sans-serif;
+            font-size: 2.0833vw;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .display__box__m2 {
+      display: flex;
+      padding-left: 3vw;
+      .display__img__m2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5vw;
+        position: relative;
+        img {
+          width: 80vw;
+          margin-left: 3vw;
+        }
+      }
+
+      .display__title__m2 {
+        position: absolute;
+        color: #fff;
+        z-index: 10;
+        text-align: right;
+        top: 2vw;
+        right: 1vw;
+        P {
+          font-family: "excluded";
+          font-size: 2.0833vw;
+        }
+        span {
+          font-size: 5.5556vw;
+          font-family: "Antonio", sans-serif;
+          margin-top: -3vw;
+        }
+      }
+
+      .display__desc__m2 {
+        p {
+          font-size: 1vw;
+          width: 25vw;
+          color: #62ffff;
+          font-family: "GoYangIlSan";
+          position: absolute;
+          z-index: 10;
+          left: 7vw;
+          bottom: -3vw;
+        }
+      }
+
+      .display__btn__m2 {
+        position: absolute;
+        bottom: -5vw;
+        right: 6vw;
+        display: flex;
+        margin-top: 3vw;
+
+        .siteBtn {
+          background-color: #62ffff;
+          font-size: 2.0833vw;
+          width: 12vw;
+          height: 3vw;
+          border-radius: 50px;
+          margin-right: 1vw;
+
+          a {
+            font-family: "Antonio", sans-serif;
+          }
+        }
+        .codeBtn {
+          width: 12vw;
+          height: 3vw;
+          background-color: rgba(98, 255, 255, 0.3);
+          border: 3px solid #62ffff;
+          border-radius: 5px;
+
+          a {
+            font-family: "Antonio", sans-serif;
+            font-size: 2.0833vw;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .display__box__m3 {
+      display: flex;
+      padding-left: 3vw;
+      .display__img__m3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5vw;
+        position: relative;
+        img {
+          width: 80vw;
+          margin-left: 3vw;
+        }
+      }
+
+      .display__title__m3 {
+        position: absolute;
+        color: #fff;
+        z-index: 10;
+        text-align: right;
+        top: 2vw;
+        right: 1vw;
+        P {
+          font-family: "excluded";
+          font-size: 2.0833vw;
+        }
+        span {
+          font-size: 5.5556vw;
+          font-family: "Antonio", sans-serif;
+          margin-top: -3vw;
+        }
+      }
+
+      .display__desc__m3 {
+        p {
+          font-size: 1vw;
+          width: 25vw;
+          color: #62ffff;
+          font-family: "GoYangIlSan";
+          position: absolute;
+          z-index: 10;
+          left: 7vw;
+          bottom: -3vw;
+        }
+      }
+
+      .display__btn__m3 {
+        position: absolute;
+        bottom: -5vw;
+        right: 6vw;
+        display: flex;
+        margin-top: 3vw;
+
+        .siteBtn {
+          background-color: #62ffff;
+          font-size: 2.0833vw;
+          width: 12vw;
+          height: 3vw;
+          border-radius: 50px;
+          margin-right: 1vw;
+
+          a {
+            font-family: "Antonio", sans-serif;
+          }
+        }
+        .codeBtn {
+          width: 12vw;
+          height: 3vw;
+          background-color: rgba(98, 255, 255, 0.3);
+          border: 3px solid #62ffff;
+          border-radius: 5px;
+
+          a {
+            font-family: "Antonio", sans-serif;
+            font-size: 2.0833vw;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .display__box__m4 {
+      display: flex;
+      padding-left: 3vw;
+      .display__img__m4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5vw;
+        position: relative;
+        img {
+          width: 80vw;
+          margin-left: 3vw;
+        }
+      }
+
+      .display__title__m4 {
+        position: absolute;
+        color: #fff;
+        z-index: 10;
+        text-align: right;
+        top: 2vw;
+        right: 1vw;
+        P {
+          font-family: "excluded";
+          font-size: 2.0833vw;
+        }
+        span {
+          font-size: 5.5556vw;
+          font-family: "Antonio", sans-serif;
+          margin-top: -3vw;
+        }
+      }
+
+      .display__desc__m4 {
+        p {
+          font-size: 1vw;
+          width: 25vw;
+          color: #62ffff;
+          font-family: "GoYangIlSan";
+          position: absolute;
+          z-index: 10;
+          left: 7vw;
+          bottom: -3vw;
+        }
+      }
+
+      .display__btn__m4 {
+        position: absolute;
+        bottom: -5vw;
+        right: 6vw;
+        display: flex;
+        margin-top: 3vw;
+
+        .siteBtn {
+          background-color: #62ffff;
+          font-size: 2.0833vw;
+          width: 12vw;
+          height: 3vw;
+          border-radius: 50px;
+          margin-right: 1vw;
+
+          a {
+            font-family: "Antonio", sans-serif;
+          }
+        }
+        .codeBtn {
+          width: 12vw;
+          height: 3vw;
+          background-color: rgba(98, 255, 255, 0.3);
+          border: 3px solid #62ffff;
+          border-radius: 5px;
+
+          a {
+            font-family: "Antonio", sans-serif;
+            font-size: 2.0833vw;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom__line {
+    height: 22px;
+    width: 100%;
+    background-image: url(../assets/image/workread/bottom__line.svg);
+    bottom: -4vw;
+    position: absolute;
+  }
+}

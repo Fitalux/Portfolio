@@ -1,6 +1,8 @@
 #Allwork {
-  background-color: #000;
+  width: 100%;
   height: 100vh;
+  display: block;
+
   h1 {
     font-family: "Antonio", sans-serif;
     font-size: 6vw;
@@ -11,10 +13,11 @@
   .title__line {
     border-bottom: 0.4vw solid #e549e5;
     margin-bottom: 1.5vw;
+    width: 100%;
   }
 
   .work__wrap {
-    width: 1000%;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: #000;
@@ -29,8 +32,8 @@
       padding-right: 3vw;
 
       .workbox__pink {
-        width: 20vw;
-        height: 36vw;
+        width: 25vw;
+        height: 37vw;
         background-color: rgba(255, 73, 184, 0.3);
         border: 0.4vw solid rgba(255, 73, 184, 0.7);
         border-radius: 0.5vw;
@@ -54,8 +57,99 @@
           width: 0;
           height: 0;
           border-style: solid;
-          border-width: 0 0 5vw 7vw;
+          border-width: 0 0 3vw 5vw;
           border-color: transparent transparent rgba(255, 73, 184, 0.7)
+            transparent;
+        }
+
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .workbox__pink__bottom {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
+
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #ff49b8;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
+          }
+
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__pink__line {
+              border-bottom: 0.5vw solid #ff49b8;
+            }
+          }
+
+          .workbox__pink__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+            z-index: 10;
+
+            button {
+              cursor: pointer;
+              font-size: 1.8vw;
+              background-color: rgba(255, 73, 184, 0.3);
+              border: 0.25vw solid #ff49b8;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .workbox__pink_v {
+        width: 25vw;
+        height: 37vw;
+        background-color: rgba(229, 73, 229, 0.3);
+        border: 0.4vw solid rgba(229, 73, 229, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 3vw 5vw;
+          border-color: transparent transparent rgba(229, 73, 229, 0.7)
             transparent;
         }
 
@@ -99,26 +193,29 @@
             display: flex;
             justify-content: space-between;
             margin-top: 1vw;
-            padding-left: 0.3vw;
-            padding-right: 0.3vw;
+            z-index: 10;
 
             button {
+              cursor: pointer;
               font-size: 1.8vw;
-              color: #fff;
               background-color: rgba(229, 73, 229, 0.3);
               border: 0.25vw solid #e549e5;
-              padding-left: 0.5vw;
-              padding-right: 0.5vw;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
               margin-bottom: 2vw;
               font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
             }
           }
         }
       }
 
       .workbox__org {
-        width: 20vw;
-        height: 40vw;
+        width: 25vw;
+        height: 37vw;
         background-color: rgba(244, 105, 0, 0.3);
         border: 0.4vw solid rgba(244, 105, 0, 0.7);
         border-radius: 0.5vw;
@@ -142,7 +239,7 @@
           width: 0;
           height: 0;
           border-style: solid;
-          border-width: 0 0 5vw 7vw;
+          border-width: 0 0 3vw 5vw;
           border-color: transparent transparent rgba(244, 105, 0, 0.7)
             transparent;
         }
@@ -187,26 +284,29 @@
             display: flex;
             justify-content: space-between;
             margin-top: 1vw;
-            padding-left: 0.3vw;
-            padding-right: 0.3vw;
+            z-index: 10;
 
             button {
-              font-size: 2.5vw;
-              color: #fff;
+              cursor: pointer;
+              font-size: 1.8vw;
               background-color: rgba(244, 105, 0, 0.3);
               border: 0.25vw solid #f46900;
-              padding-left: 0.5vw;
-              padding-right: 0.5vw;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
               margin-bottom: 2vw;
               font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
             }
           }
         }
       }
 
       .workbox__yel {
-        width: 20vw;
-        height: 40vw;
+        width: 25vw;
+        height: 37vw;
         background-color: rgba(215, 251, 1, 0.3);
         border: 0.4vw solid rgba(215, 251, 1, 0.7);
         border-radius: 0.5vw;
@@ -230,7 +330,7 @@
           width: 0;
           height: 0;
           border-style: solid;
-          border-width: 0 0 5vw 7vw;
+          border-width: 0 0 3vw 5vw;
           border-color: transparent transparent rgba(215, 251, 1, 0.7)
             transparent;
         }
@@ -275,18 +375,385 @@
             display: flex;
             justify-content: space-between;
             margin-top: 1vw;
-            padding-left: 0.3vw;
-            padding-right: 0.3vw;
+            z-index: 10;
 
             button {
-              font-size: 2.5vw;
-              color: #fff;
+              cursor: pointer;
+              font-size: 1.8vw;
               background-color: rgba(215, 251, 1, 0.3);
               border: 0.25vw solid #d7fb01;
-              padding-left: 0.5vw;
-              padding-right: 0.5vw;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
               margin-bottom: 2vw;
               font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .workbox__mint {
+        width: 25vw;
+        height: 37vw;
+        background-color: rgba(75, 225, 164, 0.3);
+        border: 0.4vw solid rgba(75, 225, 164, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 3vw 5vw;
+          border-color: transparent transparent rgba(75, 225, 164, 0.7)
+            transparent;
+        }
+
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .workbox__mint__bottom {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
+
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #4be1a4;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
+          }
+
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__mint__line {
+              border-bottom: 0.5vw solid #4be1a4;
+            }
+          }
+
+          .workbox__mint__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+            z-index: 10;
+
+            button {
+              cursor: pointer;
+              font-size: 1.8vw;
+              background-color: rgba(75, 225, 164, 0.3);
+              border: 0.25vw solid #4be1a4;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .workbox__sky {
+        width: 25vw;
+        height: 37vw;
+        background-color: rgba(98, 255, 255, 0.3);
+        border: 0.4vw solid rgba(98, 255, 255, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 3vw 5vw;
+          border-color: transparent transparent rgba(98, 255, 255, 0.7)
+            transparent;
+        }
+
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .workbox__sky__bottom {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
+
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #62ffff;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
+          }
+
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__sky__line {
+              border-bottom: 0.5vw solid #62ffff;
+            }
+          }
+
+          .workbox__sky__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+            z-index: 10;
+
+            button {
+              cursor: pointer;
+              font-size: 1.8vw;
+              background-color: rgba(98, 255, 255, 0.3);
+              border: 0.25vw solid #62ffff;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .workbox__blue {
+        width: 25vw;
+        height: 37vw;
+        background-color: rgba(128, 97, 255, 0.3);
+        border: 0.4vw solid rgba(128, 97, 255, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 3vw 5vw;
+          border-color: transparent transparent rgba(128, 97, 255, 0.7)
+            transparent;
+        }
+
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .workbox__blue__bottom {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
+
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #8061ff;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
+          }
+
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__blue__line {
+              border-bottom: 0.5vw solid #8061ff;
+            }
+          }
+
+          .workbox__blue__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            button {
+              cursor: pointer;
+              font-size: 1.8vw;
+              background-color: rgba(128, 97, 255, 0.3);
+              border: 0.25vw solid #8061ff;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .workbox__vio {
+        width: 25vw;
+        height: 37vw;
+        background-color: rgba(210, 113, 254, 0.3);
+        border: 0.4vw solid rgba(210, 113, 254, 0.7);
+        border-radius: 0.5vw;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 1.5vw;
+        z-index: 1;
+        overflow: hidden;
+        margin-right: 2vw;
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 3vw 5vw;
+          border-color: transparent transparent rgba(210, 113, 254, 0.7)
+            transparent;
+        }
+
+        .workbox__top {
+          align-items: center;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .workbox__vio__bottom {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          font-size: 2.8vw;
+
+          .first__text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+
+            .work__number {
+              background-color: #d271fe;
+              padding-left: 0.5vw;
+              padding-right: 0.5vw;
+            }
+          }
+
+          .second__text {
+            .work__title {
+              display: inline-block;
+              margin-bottom: 1vw;
+            }
+            .workbox__vio__line {
+              border-bottom: 0.5vw solid #d271fe;
+            }
+          }
+
+          .workbox__vio__btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1vw;
+            // padding-left: 0.3vw;
+            // padding-right: 0.3vw;
+
+            button {
+              cursor: pointer;
+              font-size: 1.8vw;
+              background-color: rgba(210, 113, 254, 0.3);
+              border: 0.25vw solid #d271fe;
+              padding-left: 1.5vw;
+              padding-right: 1.5vw;
+              margin-bottom: 2vw;
+              font-family: "Antonio", sans-serif;
+
+              a {
+                color: #fff;
+              }
             }
           }
         }
