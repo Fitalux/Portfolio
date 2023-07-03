@@ -1,0 +1,151 @@
+.modal__pink {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 3%;
+  width: 48vw;
+  height: 38vw;
+  border: 3px solid #ff49b8;
+  background-color: #000;
+  z-index: 10;
+  overflow: hidden;
+
+  .modal__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    h3 {
+      color: #fff;
+      font-family: "Antonio", sans-serif;
+      font-size: 1.5vw;
+      margin-left: 1vw;
+    }
+
+    button {
+      font-size: 1.3vw;
+      width: 8vw;
+      height: 2vw;
+      padding-right: 0.5vw;
+      padding-left: 0.5vw;
+      margin-right: 10px;
+      font-family: "Antonio", sans-serif;
+      background-color: rgba(255, 73, 184, 0.3);
+      border: 2px solid #ff49b8;
+      color: #fff;
+      line-height: 50%;
+      cursor: pointer;
+    }
+  }
+  .top__line {
+    background-image: url(../assets/image/modal/top__line_pink.svg);
+    width: 100vw;
+    height: 10px;
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+    background-repeat: no-repeat;
+  }
+
+  .modal__cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .modal__item {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 3.125vw;
+
+      h2 {
+        font-size: 2vw;
+        font-family: "Antonio", sans-serif;
+        color: #fff;
+        margin-bottom: 1.5vw;
+        margin-top: 1.5vw;
+      }
+
+      .line {
+        width: 70%;
+        height: 2px;
+        background-color: #ff49b8;
+      }
+
+      .chart {
+        display: flex;
+        align-items: center;
+
+        .title {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          margin-top: 1vw;
+          .text {
+            text-transform: uppercase;
+            font-family: "Antonio", sans-serif;
+            font-size: 1.4vw;
+            color: #fff;
+            margin-bottom: 1vw;
+          }
+        }
+        .chart__stick {
+          margin-top: 1.2vw;
+          margin-left: 2.5vw;
+          .first__stick {
+            width: 25vw;
+            height: 1.3889vw;
+            background-color: #fff;
+            margin-bottom: 18px;
+          }
+
+          .second__stick {
+            width: 25vw;
+            height: 1.3889vw;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 18px;
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              background-color: #fff;
+              width: 30%;
+              height: 1.3889vw;
+              top: 0;
+              left: 0;
+              z-index: 1;
+            }
+          }
+          .third__stick {
+            width: 25vw;
+            height: 1.3889vw;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 18px;
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              background-color: #fff;
+              width: 70%;
+              height: 1.3889vw;
+              top: 0;
+              left: 0;
+              z-index: 1;
+            }
+          }
+        }
+      }
+
+      p {
+        color: #fff;
+        font-size: 1vw;
+        margin-top: 1.2vw;
+        line-height: 1.5;
+      }
+    }
+  }
+}
