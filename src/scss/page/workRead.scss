@@ -11,22 +11,29 @@
 
     .read__top {
       display: flex;
-      // flex-wrap: wrap;
+      flex-wrap: wrap;
       align-content: center;
-      margin-bottom: 1.5vw;
+
       .title {
         color: #ff49b8;
         font-family: "Antonio", sans-serif;
         font-size: 2.0833vw;
-        padding-top: 1vw;
         margin-left: 15vw;
+        margin-bottom: 1vw;
+      }
+
+      .top-line {
+        width: 100%;
+        height: 3px;
+        background-color: #ff49b8;
+        margin-left: -3vw;
       }
     }
 
     .display {
-      border-top: 3px solid #ff49b8;
       display: flex;
       font-family: "GoYangIlSan";
+      margin-left: 3vw;
 
       .display__box__pink {
         display: flex;
@@ -39,7 +46,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-top: 1.5vw;
+          margin-top: 1vw;
           position: relative;
           img {
             width: 80vw;
@@ -51,18 +58,19 @@
           color: #fff;
           z-index: 10;
           left: 7vw;
-          bottom: -5vw;
+          bottom: -4.5vw;
           .top {
             display: flex;
             justify-content: space-between;
             align-items: center;
             P {
               font-family: "excluded";
-              font-size: 2vw;
+              font-size: 1.5vw;
               line-height: 1.5;
             }
 
             button {
+              z-index: 10;
               font-size: 20px;
               width: 8vw;
               height: 2vw;
@@ -97,6 +105,8 @@
             height: 3vw;
             border-radius: 50px;
             margin-right: 1vw;
+            z-index: 10;
+            cursor: pointer;
 
             a {
               font-family: "Antonio", sans-serif;
@@ -140,32 +150,40 @@
           position: absolute;
           color: #fff;
           z-index: 10;
-          text-align: right;
-          top: 2vw;
-          right: 6vw;
-          P {
-            font-family: "excluded";
-            font-size: 2.0833vw;
+          left: 7vw;
+          bottom: -4.5vw;
+          .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            P {
+              font-family: "excluded";
+              font-size: 1.5vw;
+              line-height: 1.5;
+              margin-right: 1vw;
+            }
+
+            button {
+              z-index: 10;
+              font-size: 1.2vw;
+              width: 8vw;
+              height: 2vw;
+              padding-right: 0.5vw;
+              padding-left: 0.5vw;
+              font-family: "Antonio", sans-serif;
+              background-color: rgba(244, 105, 0, 0.3);
+              // line-height: 2;
+              border: 2px solid #f46900;
+              color: #fff;
+              cursor: pointer;
+            }
           }
           span {
-            font-size: 5.5556vw;
+            font-size: 4vw;
             font-family: "Antonio", sans-serif;
             margin-top: -3vw;
           }
         }
-
-        .display__desc__org {
-          p {
-            font-size: 1vw;
-            color: #f46900;
-            font-family: "GoYangIlSan";
-            position: absolute;
-            z-index: 10;
-            left: 7vw;
-            bottom: -3vw;
-          }
-        }
-
         .display__btn__org {
           position: absolute;
           bottom: -3.5vw;
@@ -223,36 +241,44 @@
           position: absolute;
           color: #fff;
           z-index: 10;
-          text-align: right;
-          top: 2vw;
-          right: 6vw;
-          P {
-            font-family: "excluded";
-            font-size: 2.0833vw;
+          left: 7vw;
+          bottom: -4.5vw;
+          .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            P {
+              font-family: "excluded";
+              font-size: 2vw;
+              line-height: 1.5;
+            }
+
+            button {
+              z-index: 10;
+              font-size: 1.2vw;
+              width: 8vw;
+              height: 2vw;
+              padding-right: 0.5vw;
+              padding-left: 0.5vw;
+              font-family: "Antonio", sans-serif;
+              margin-right: 5.5vw;
+              background-color: rgba(215, 251, 1, 0.3);
+              // line-height: 2;
+              border: 2px solid #d7fb01;
+              color: #fff;
+              cursor: pointer;
+            }
           }
           span {
-            font-size: 5.5556vw;
+            font-size: 4vw;
             font-family: "Antonio", sans-serif;
             margin-top: -3vw;
           }
         }
-
-        .display__desc__yel {
-          p {
-            font-size: 1vw;
-            color: #d7fb01;
-            font-family: "GoYangIlSan";
-            position: absolute;
-            z-index: 10;
-            left: 7vw;
-            bottom: -3vw;
-          }
-        }
-
         .display__btn__yel {
           position: absolute;
           bottom: -3.5vw;
-          right: 7vw;
+          right: 10vw;
           display: flex;
           margin-top: 3vw;
 
@@ -306,32 +332,41 @@
           position: absolute;
           color: #fff;
           z-index: 10;
-          text-align: right;
-          top: 2vw;
-          right: 6vw;
-          P {
-            font-family: "excluded";
-            font-size: 2.0833vw;
+          left: 7vw;
+          bottom: -4.5vw;
+          .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            P {
+              font-family: "excluded";
+              font-size: 1.5vw;
+              line-height: 1.5;
+              margin-right: 1vw;
+            }
+
+            button {
+              z-index: 10;
+              font-size: 20px;
+              width: 8vw;
+              height: 2vw;
+              padding-right: 0.5vw;
+              padding-left: 0.5vw;
+              font-family: "Antonio", sans-serif;
+              margin-right: 5.5vw;
+              background-color: rgba(75, 225, 164, 0.3);
+              // line-height: 2;
+              border: 2px solid #4be1a4;
+              color: #fff;
+              cursor: pointer;
+            }
           }
           span {
-            font-size: 5.5556vw;
+            font-size: 4vw;
             font-family: "Antonio", sans-serif;
             margin-top: -3vw;
           }
         }
-
-        .display__desc__mint {
-          p {
-            font-size: 1vw;
-            color: #4be1a4;
-            font-family: "GoYangIlSan";
-            position: absolute;
-            z-index: 10;
-            left: 7vw;
-            bottom: -3vw;
-          }
-        }
-
         .display__btn__mint {
           position: absolute;
           bottom: -3.5vw;
@@ -389,32 +424,40 @@
           position: absolute;
           color: #fff;
           z-index: 10;
-          text-align: right;
-          top: 2vw;
-          right: 6vw;
-          P {
-            font-family: "excluded";
-            font-size: 2.0833vw;
+          left: 7vw;
+          bottom: -4.5vw;
+          .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            P {
+              font-family: "excluded";
+              line-height: 1.5;
+              font-size: 1.5vw;
+              margin-right: 1vw;
+            }
+
+            button {
+              z-index: 10;
+              font-size: 20px;
+              width: 8vw;
+              height: 2vw;
+              padding-right: 0.5vw;
+              padding-left: 0.5vw;
+              font-family: "Antonio", sans-serif;
+              margin-right: 5.5vw;
+              background-color: rgba(98, 255, 255, 0.3);
+              border: 2px solid #62ffff;
+              color: #fff;
+              cursor: pointer;
+            }
           }
           span {
-            font-size: 5.5556vw;
+            font-size: 4vw;
             font-family: "Antonio", sans-serif;
             margin-top: -3vw;
           }
         }
-
-        .display__desc__sky {
-          p {
-            font-size: 1vw;
-            color: #62ffff;
-            font-family: "GoYangIlSan";
-            position: absolute;
-            z-index: 10;
-            left: 7vw;
-            bottom: -3vw;
-          }
-        }
-
         .display__btn__sky {
           position: absolute;
           bottom: -3.5vw;
@@ -472,32 +515,39 @@
           position: absolute;
           color: #fff;
           z-index: 10;
-          text-align: right;
-          top: 2vw;
-          right: 6vw;
-          P {
-            font-family: "excluded";
-            font-size: 2.0833vw;
+          left: 7vw;
+          bottom: -4.5vw;
+          .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            P {
+              font-family: "excluded";
+              font-size: 1.5vw;
+              line-height: 1.5;
+            }
+
+            button {
+              z-index: 10;
+              font-size: 1.2vw;
+              width: 8vw;
+              height: 2vw;
+              padding-right: 0.5vw;
+              padding-left: 0.5vw;
+              font-family: "Antonio", sans-serif;
+              background-color: rgba(128, 97, 255, 0.3);
+              // line-height: 2;
+              border: 2px solid #8061ff;
+              color: #ffffff;
+              cursor: pointer;
+            }
           }
           span {
-            font-size: 5.5556vw;
+            font-size: 4vw;
             font-family: "Antonio", sans-serif;
             margin-top: -3vw;
           }
         }
-
-        .display__desc__blue {
-          p {
-            font-size: 1vw;
-            color: #8061ff;
-            font-family: "GoYangIlSan";
-            position: absolute;
-            z-index: 10;
-            left: 7vw;
-            bottom: -3vw;
-          }
-        }
-
         .display__btn__blue {
           position: absolute;
           bottom: -3.5vw;
@@ -555,32 +605,40 @@
           position: absolute;
           color: #fff;
           z-index: 10;
-          text-align: right;
-          top: 2vw;
-          right: 6vw;
-          P {
-            font-family: "excluded";
-            font-size: 2.0833vw;
+          left: 7vw;
+          bottom: -4.5vw;
+          .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            P {
+              font-family: "excluded";
+              font-size: 1.5vw;
+              line-height: 1.5;
+            }
+
+            button {
+              z-index: 10;
+              font-size: 20px;
+              width: 8vw;
+              height: 2vw;
+              padding-right: 0.5vw;
+              padding-left: 0.5vw;
+              font-family: "Antonio", sans-serif;
+              background-color: rgba(210, 113, 254, 0.3);
+              // line-height: 2;
+              border: 2px solid #d271fe;
+              color: #fff;
+              cursor: pointer;
+            }
           }
           span {
-            font-size: 5.5556vw;
+            font-size: 4vw;
             font-family: "Antonio", sans-serif;
             margin-top: -3vw;
           }
         }
-
-        .display__desc__vio {
-          p {
-            font-size: 1vw;
-            color: #d271fe;
-            font-family: "GoYangIlSan";
-            position: absolute;
-            z-index: 10;
-            left: 7vw;
-            bottom: -3vw;
-          }
-        }
-
         .display__btn__vio {
           position: absolute;
           bottom: -3.5vw;
@@ -618,11 +676,14 @@
     }
 
     .bottom__line {
-      height: 22px;
-      width: 100%;
-      background-image: url(../assets/image/workread/bottom__line_pink.svg);
-      bottom: 1vw;
       position: absolute;
+      width: 20%;
+      height: 23px;
+      background-image: url(../assets/image/workread/Line_bottom__Pink.svg);
+      bottom: 1vw;
+      margin-left: -3vw;
+      background-repeat: no-repeat;
+      background-position: center center;
     }
   }
 }
