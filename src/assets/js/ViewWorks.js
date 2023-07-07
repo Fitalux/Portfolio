@@ -13,25 +13,25 @@ gsap.to(sections, {
   },
 });
 
-const workDetailSection = document.querySelector("#workDetail");
-const displayBoxes = workDetailSection.querySelectorAll(".display__box");
-const title = workDetailSection.querySelector(".title");
-const line = workDetailSection.querySelector(".line");
+// const workDetailSection = document.querySelector("#workDetail");
+// const displayBoxes = workDetailSection.querySelectorAll(".display__box");
+// const title = workDetailSection.querySelector(".title");
+// const line = workDetailSection.querySelector(".line");
 
-displayBoxes.forEach((box, index) => {
-  const colorClass = box.classList[1];
-  const color = colorClass.split("__")[1];
+// displayBoxes.forEach((box, index) => {
+//   const colorClass = box.classList[1];
+//   const color = colorClass.split("__")[1];
 
-  // 색상에 맞는 class 명 생성
-  const newTitleClass = `title_${color}`;
-  const newLineClass = `line_${color}`;
+//   // 색상에 맞는 class 명 생성
+//   const newTitleClass = `title_${color}`;
+//   const newLineClass = `line_${color}`;
 
-  // title과 line의 class 명 변경
-  if (index === 0) {
-    title.classList = `title ${newTitleClass}`;
-    line.classList = `line ${newLineClass}`;
-  } else {
-    title.classList.add(newTitleClass);
-    line.classList.add(newLineClass);
-  }
-});
+//   // title과 line의 class 명 변경
+//   if (index === 0) {
+//     title.classList = `title ${newTitleClass}`;
+//     line.classList = `line ${newLineClass}`;
+//   } else {
+//     title.classList.add(newTitleClass);
+//     line.classList.add(newLineClass);
+//   }
+// });
