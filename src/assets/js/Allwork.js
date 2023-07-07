@@ -1,14 +1,14 @@
-const horizontal = document.querySelector("#horizontal");
+const horizontal = document.querySelector("#Allwork");
 const sections = gsap.utils.toArray(".color__box");
 
 gsap.to(sections, {
   xPercent: -100 * (sections.length - 1),
   ease: "none",
   scrollTrigger: {
-    trigger: "#horizontal",
+    trigger: "#Allwork",
     pin: true,
-    scrub: 5,
-    snap: 5 / (sections.length - 1),
-    end: () => "+=" + document.querySelector("#horizontal").offsetWidth,
+    scrub: 0.3,
+    snap: 0.3 / (sections.length - 1),
+    end: () => "+=" + document.querySelector("#Allwork").offsetWidth,
   },
 });

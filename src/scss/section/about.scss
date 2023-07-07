@@ -1,118 +1,357 @@
 #about {
   width: 100%;
-  height: 500vh;
+  height: 400vh;
+  display: flex;
+  flex-direction: column;
 
-  .about__small_title {
-    padding: 2vw 0 1vw 1vw;
-    color: #e418ff;
-    line-height: 1.5;
-
-    span {
-      font-family: "Aldrich", sans-serif;
-      font-size: 1.25vw;
-    }
-
-    p {
-      font-family: "GoYangIlSan";
-      letter-spacing: 0.17vw;
-      font-size: 1.25vw;
-    }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    color: #ea3cfe;
+    text-transform: uppercase;
+    font-size: 8vw;
+    font-family: "Krona One", sans-serif;
+    margin-left: 3vw;
   }
 
   .line {
     width: 100%;
-    height: 2vw;
+    height: 3px;
+    background-color: #ea3cfe;
+    margin-top: 2vw;
+    margin-left: 0.5vw;
     position: relative;
-    top: 0;
-    left: 1vw;
-    background-image: url(../assets/image/about/about__line.svg);
-    background-repeat: no-repeat;
+
+    &::before {
+      content: "";
+      width: 3px;
+      height: 20px;
+      position: absolute;
+      background-color: #e418ff;
+      top: 3px;
+      left: 0;
+    }
   }
 
-  .about__top__text {
-    color: #fff;
-    width: 100%;
-    font-size: 2vw;
-    margin-left: 2vw;
-    margin-top: -1.5vw;
-    font-weight: 100;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 25vw;
-  }
-  .about__main__text {
+  .about__item {
     display: flex;
     width: 100%;
-    right: 0;
-    top: 0;
-    padding: 1vw;
-    font-weight: bold;
-    font-size: 12vw;
-    font-family: "Antonio", sans-serif;
-    color: #fff;
-    z-index: 1;
-    text-align: right;
-    justify-content: center;
-  }
+    justify-content: space-between;
+    position: relative;
 
-  .about__img {
-    margin-right: 1vw;
-    z-index: 10;
-    width: 100%;
-    margin-left: 2vw;
-
-    .about__desc {
+    .img_text__box {
       display: flex;
-      width: 55.5556vw;
-      height: 25vw;
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(225, 31, 251, 0.2);
-      margin-bottom: 10vw;
-      margin-top: 5vw;
-      position: relative;
+      width: 48%;
+      flex-direction: column;
 
-      &:nth-child(even) {
-        margin-left: 38vw;
-      }
-
-      &:before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 0 5vw 7vw;
-        border-color: transparent transparent rgba(228, 24, 255, 1) transparent;
-      }
-
-      img {
-        width: 20.8333vw;
-      }
-
-      .text__box {
+      .box__1 {
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin-left: 1.5vw;
+        background-color: rgba(235, 60, 254, 0.2);
+        margin-top: 5vw;
+        height: 18vw;
+        margin-left: 2vw;
+        border: 2px solid #ea3cfe;
+        border-radius: 10px;
+
+        .left {
+          margin-top: 1vw;
+          margin-left: 3vw;
+          width: 15vw;
+          height: 15vw;
+          background-image: url(../assets/image/about/maru01.jpg);
+          background-position: center center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border: 3px solid #ea3cfe;
+          border-radius: 10px;
+        }
+
+        .right {
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          margin-left: 3vw;
+          margin-top: 1vw;
+          justify-content: center;
+          padding: 1vw;
+
+          em {
+            font-size: 1vw;
+            color: #ea3cfe;
+            font-family: "Antonio";
+            margin-bottom: 1vw;
+          }
+
+          span {
+            font-size: 2vw;
+            font-weight: bold;
+            font-family: "SCoreDream";
+            line-height: 1.5;
+          }
+
+          p {
+            font-family: "SCoreDream";
+            font-size: 1.2vw;
+            line-height: 1.5;
+          }
+        }
+      }
+
+      .box__2 {
+        display: flex;
+        background-color: rgba(235, 60, 254, 0.2);
+        margin-top: 5vw;
+        height: 18vw;
+        margin-left: 2vw;
+        border: 2px solid #ea3cfe;
+        border-radius: 10px;
+
+        .left {
+          margin-top: 1vw;
+          margin-left: 3vw;
+          width: 15vw;
+          height: 15vw;
+          background-image: url(../assets/image/about/maru02.jpg);
+          background-position: top center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border: 3px solid #ea3cfe;
+          border-radius: 10px;
+        }
+
+        .right {
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          margin-left: 3vw;
+          margin-top: 1vw;
+          justify-content: center;
+          padding: 1vw;
+
+          em {
+            font-size: 1vw;
+            color: #ea3cfe;
+            font-family: "Antonio";
+            margin-bottom: 1vw;
+          }
+
+          span {
+            font-size: 2vw;
+            font-weight: bold;
+            font-family: "SCoreDream";
+            line-height: 1.5;
+          }
+
+          p {
+            font-family: "SCoreDream";
+            font-size: 1vw;
+            line-height: 1.5;
+          }
+        }
+      }
+
+      .box__3 {
+        display: flex;
+        background-color: rgba(235, 60, 254, 0.2);
+        margin-top: 5vw;
+        height: 18vw;
+        margin-left: 2vw;
+        border: 2px solid #ea3cfe;
+        border-radius: 10px;
+
+        .left {
+          margin-top: 1vw;
+          margin-left: 3vw;
+          width: 15vw;
+          height: 15vw;
+          background-image: url(../assets/image/about/maru03.jpg);
+          background-position: top center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border: 3px solid #ea3cfe;
+          border-radius: 10px;
+        }
+
+        .right {
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          margin-left: 3vw;
+          margin-top: 1vw;
+          justify-content: center;
+          padding: 1vw;
+
+          em {
+            font-size: 1vw;
+            color: #ea3cfe;
+            font-family: "Antonio";
+            margin-bottom: 1vw;
+          }
+
+          span {
+            font-size: 2vw;
+            font-weight: bold;
+            font-family: "SCoreDream";
+            line-height: 1.5;
+          }
+
+          p {
+            font-family: "SCoreDream";
+            font-size: 1vw;
+            line-height: 1.5;
+          }
+        }
+      }
+
+      .box__4 {
+        display: flex;
+        background-color: rgba(235, 60, 254, 0.2);
+        margin-top: 5vw;
+        height: 18vw;
+        margin-left: 2vw;
+        border: 2px solid #ea3cfe;
+        border-radius: 10px;
+
+        .left {
+          margin-top: 1vw;
+          margin-left: 3vw;
+          width: 40%;
+          width: 15vw;
+          height: 15vw;
+          background-image: url(../assets/image/about/puzzle.png);
+          background-position: top center;
+          background-size: cover;
+          object-fit: cover;
+          background-repeat: no-repeat;
+          border: 3px solid #ea3cfe;
+          border-radius: 10px;
+        }
+
+        .right {
+          width: 55%;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          margin-left: 3vw;
+          justify-content: center;
+          padding: 1vw;
+
+          em {
+            font-size: 1vw;
+            color: #ea3cfe;
+            font-family: "Antonio";
+            margin-bottom: 1vw;
+          }
+
+          span {
+            font-size: 1.5vw;
+            font-weight: bold;
+            font-family: "SCoreDream";
+            line-height: 1.5;
+          }
+
+          p {
+            font-family: "SCoreDream";
+            font-size: 0.8vw;
+            line-height: 1.5;
+          }
+        }
+      }
+
+      .box__5 {
+        display: flex;
+        background-color: rgba(235, 60, 254, 0.2);
+        margin-top: 5vw;
+        height: 18vw;
+        margin-left: 2vw;
+        border: 2px solid #ea3cfe;
+        border-radius: 10px;
+
+        .left {
+          margin-top: 1vw;
+          margin-left: 3vw;
+          width: 40%;
+          width: 15vw;
+          height: 15vw;
+          background-image: url(../assets/image/about/walk.png);
+          background-position: top center;
+          background-size: cover;
+          object-fit: cover;
+          background-repeat: no-repeat;
+          border: 3px solid #ea3cfe;
+          border-radius: 10px;
+        }
+
+        .right {
+          width: 55%;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          margin-left: 3vw;
+          justify-content: center;
+          padding: 1vw;
+
+          em {
+            font-size: 1vw;
+            color: #ea3cfe;
+            font-family: "Antonio";
+            margin-bottom: 1vw;
+          }
+
+          span {
+            font-size: 1.5vw;
+            font-weight: bold;
+            font-family: "SCoreDream";
+            line-height: 1.5;
+          }
+
+          p {
+            font-family: "SCoreDream";
+            font-size: 0.8vw;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+    .text__box {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      background-color: rgba(234, 60, 254, 0.3);
+      margin-top: 10vw;
+      padding: 1vw;
+      z-index: 10;
+      font-family: "SCoreDream";
+      border: 2px solid #ea3cfe;
+      border-radius: 10px;
+      top: 0;
+      right: 0;
+
+      .left {
+        align-items: center;
+        width: 20%;
+
+        .intro__img {
+          width: 100px;
+          height: 100px;
+        }
 
         span {
-          font-size: 2.0833vw;
+          display: inline-block;
           text-transform: uppercase;
-          letter-spacing: 0.3em;
-          text-decoration: underline;
+          background-color: #e418ff;
+          margin-top: 1vw;
           color: #fff;
-          margin-bottom: 1.5vw;
-          font-family: "Antonio", sans-serif;
+          padding: 3px 10px;
+          font-family: "Audiowide";
         }
-        p {
-          color: #fff;
-          font-size: 0.9722vw;
-          line-height: 1.5;
-          font-family: "GoYangIlSan";
-          z-index: 1;
-        }
+      }
+      .right {
+        width: 80%;
+        color: #fff;
+        margin-top: 2vw;
       }
     }
   }
