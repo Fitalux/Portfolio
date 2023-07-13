@@ -1,48 +1,19 @@
-const hide = (item) => {
-  gsap.set(item, { autoAlpha: 0 });
-};
+const box3_1 = document.querySelector("#about .about__item .img__box1");
+const box3_2 = document.querySelector("#about .about__item .img__box2");
+const box3_3 = document.querySelector("#about .about__item .img__box3");
 
-const animate = (item) => {
-  let x = 0;
-  let y = 0;
-  let delay = item.dataset.delay;
+const boxMove = gsap.timeline();
+boxMove.from(box3_1, { opacity: 0, y: 300, duration: 1 }, "a");
+boxMove.from(box3_2, { opacity: 0, y: -300, duration: 1 }, "a");
+boxMove.from(box3_3, { opacity: 0, y: 300, duration: 1 }, "a");
 
-  if (item.classList.contains("reveal_LTR")) {
-    x = -100;
-    y = 0;
-  } else if (item.classList.contains("reveal_BTT")) {
-    x = 0;
-    y = 100;
-  } else {
-    x = 100;
-    y = 0;
-  }
-
-  gsap.fromTo(
-    item,
-    { autoAlpha: 0, x: x, y: y },
-    {
-      autoAlpha: 1,
-      x: 0,
-      y: 0,
-      delay: delay,
-      duration: 2,
-      overwrite: "auto",
-      ease: "expo",
-    }
-  );
-};
-
-gsap.utils.toArray(".reveal").forEach((item) => {
-  hide(item);
-
-  ScrollTrigger.create({
-    trigger: item,
-    // start: "top 80%",
-    // end: "bottom 20%",
-    markers: false,
-    onEnter: () => {
-      animate(item);
-    },
-  });
+ScrollTrigger.create({
+  animation: boxMove,
+  trigger: ".about__item",
+  start: "top top",
+  end: "+=2000",
+  scrub: true,
+  pin: true,
+  anticipatePin: 1,
+  markers: false,
 });

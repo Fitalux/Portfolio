@@ -1,357 +1,129 @@
 #about {
-  width: 100%;
-  height: 400vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #170619;
+  padding: 4vw;
 
-  .logo {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5vw;
-    color: #ea3cfe;
+  h2 {
+    font-size: 10vw;
+    line-height: 0.9;
+    color: #ea3cfd;
     text-transform: uppercase;
-    font-size: 8vw;
-    font-family: "Krona One", sans-serif;
-    margin-left: 3vw;
+    font-family: "Orbitron";
+    padding-top: 10vw;
+    font-weight: 100;
   }
-
-  .line {
+  .line__top,
+  .line__bottom {
     width: 100%;
-    height: 3px;
-    background-color: #ea3cfe;
-    margin-top: 2vw;
-    margin-left: 0.5vw;
+    height: 2px;
+    background-color: #ea3cfd;
+    display: block;
+    margin-top: 50px;
     position: relative;
-
-    &::before {
-      content: "";
-      width: 3px;
-      height: 20px;
-      position: absolute;
-      background-color: #e418ff;
-      top: 3px;
-      left: 0;
-    }
   }
-
+  .line__top::before {
+    content: "";
+    height: 20px;
+    width: 2px;
+    background-color: #ea3cfd;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .line__bottom::after {
+    content: "";
+    height: 20px;
+    width: 2px;
+    background-color: #ea3cfd;
+    position: absolute;
+    right: 0;
+    top: -20px;
+  }
   .about__item {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
     position: relative;
 
-    .img_text__box {
-      display: flex;
-      width: 48%;
-      flex-direction: column;
+    .img__box1,
+    .img__box2,
+    .img__box3 {
+      position: absolute;
+      background-color: #ea3cfd4e;
+      text-align: center;
+      top: 40%;
+      border: 3px solid #ea3cfd;
+      border-radius: 15px;
 
-      .box__1 {
-        display: flex;
-        background-color: rgba(235, 60, 254, 0.2);
-        margin-top: 5vw;
-        height: 18vw;
-        margin-left: 2vw;
-        border: 2px solid #ea3cfe;
-        border-radius: 10px;
-
-        .left {
-          margin-top: 1vw;
-          margin-left: 3vw;
-          width: 15vw;
-          height: 15vw;
-          background-image: url(../assets/image/about/maru01.jpg);
-          background-position: center center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          border: 3px solid #ea3cfe;
-          border-radius: 10px;
-        }
-
-        .right {
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 3vw;
-          margin-top: 1vw;
-          justify-content: center;
-          padding: 1vw;
-
-          em {
-            font-size: 1vw;
-            color: #ea3cfe;
-            font-family: "Antonio";
-            margin-bottom: 1vw;
-          }
-
-          span {
-            font-size: 2vw;
-            font-weight: bold;
-            font-family: "SCoreDream";
-            line-height: 1.5;
-          }
-
-          p {
-            font-family: "SCoreDream";
-            font-size: 1.2vw;
-            line-height: 1.5;
-          }
-        }
+      img {
+        width: 13vw;
+        height: 13vw;
+        padding: 1vw 1vw 0 1vw;
+        background-position: center center;
+        object-fit: center;
+        background-size: cover;
+        padding: 1vw;
       }
 
-      .box__2 {
-        display: flex;
-        background-color: rgba(235, 60, 254, 0.2);
-        margin-top: 5vw;
-        height: 18vw;
-        margin-left: 2vw;
-        border: 2px solid #ea3cfe;
-        border-radius: 10px;
-
-        .left {
-          margin-top: 1vw;
-          margin-left: 3vw;
-          width: 15vw;
-          height: 15vw;
-          background-image: url(../assets/image/about/maru02.jpg);
-          background-position: top center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          border: 3px solid #ea3cfe;
-          border-radius: 10px;
-        }
-
-        .right {
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 3vw;
-          margin-top: 1vw;
-          justify-content: center;
-          padding: 1vw;
-
-          em {
-            font-size: 1vw;
-            color: #ea3cfe;
-            font-family: "Antonio";
-            margin-bottom: 1vw;
-          }
-
-          span {
-            font-size: 2vw;
-            font-weight: bold;
-            font-family: "SCoreDream";
-            line-height: 1.5;
-          }
-
-          p {
-            font-family: "SCoreDream";
-            font-size: 1vw;
-            line-height: 1.5;
-          }
-        }
-      }
-
-      .box__3 {
-        display: flex;
-        background-color: rgba(235, 60, 254, 0.2);
-        margin-top: 5vw;
-        height: 18vw;
-        margin-left: 2vw;
-        border: 2px solid #ea3cfe;
-        border-radius: 10px;
-
-        .left {
-          margin-top: 1vw;
-          margin-left: 3vw;
-          width: 15vw;
-          height: 15vw;
-          background-image: url(../assets/image/about/maru03.jpg);
-          background-position: top center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          border: 3px solid #ea3cfe;
-          border-radius: 10px;
-        }
-
-        .right {
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 3vw;
-          margin-top: 1vw;
-          justify-content: center;
-          padding: 1vw;
-
-          em {
-            font-size: 1vw;
-            color: #ea3cfe;
-            font-family: "Antonio";
-            margin-bottom: 1vw;
-          }
-
-          span {
-            font-size: 2vw;
-            font-weight: bold;
-            font-family: "SCoreDream";
-            line-height: 1.5;
-          }
-
-          p {
-            font-family: "SCoreDream";
-            font-size: 1vw;
-            line-height: 1.5;
-          }
-        }
-      }
-
-      .box__4 {
-        display: flex;
-        background-color: rgba(235, 60, 254, 0.2);
-        margin-top: 5vw;
-        height: 18vw;
-        margin-left: 2vw;
-        border: 2px solid #ea3cfe;
-        border-radius: 10px;
-
-        .left {
-          margin-top: 1vw;
-          margin-left: 3vw;
-          width: 40%;
-          width: 15vw;
-          height: 15vw;
-          background-image: url(../assets/image/about/puzzle.png);
-          background-position: top center;
-          background-size: cover;
-          object-fit: cover;
-          background-repeat: no-repeat;
-          border: 3px solid #ea3cfe;
-          border-radius: 10px;
-        }
-
-        .right {
-          width: 55%;
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 3vw;
-          justify-content: center;
-          padding: 1vw;
-
-          em {
-            font-size: 1vw;
-            color: #ea3cfe;
-            font-family: "Antonio";
-            margin-bottom: 1vw;
-          }
-
-          span {
-            font-size: 1.5vw;
-            font-weight: bold;
-            font-family: "SCoreDream";
-            line-height: 1.5;
-          }
-
-          p {
-            font-family: "SCoreDream";
-            font-size: 0.8vw;
-            line-height: 1.5;
-          }
-        }
-      }
-
-      .box__5 {
-        display: flex;
-        background-color: rgba(235, 60, 254, 0.2);
-        margin-top: 5vw;
-        height: 18vw;
-        margin-left: 2vw;
-        border: 2px solid #ea3cfe;
-        border-radius: 10px;
-
-        .left {
-          margin-top: 1vw;
-          margin-left: 3vw;
-          width: 40%;
-          width: 15vw;
-          height: 15vw;
-          background-image: url(../assets/image/about/walk.png);
-          background-position: top center;
-          background-size: cover;
-          object-fit: cover;
-          background-repeat: no-repeat;
-          border: 3px solid #ea3cfe;
-          border-radius: 10px;
-        }
-
-        .right {
-          width: 55%;
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 3vw;
-          justify-content: center;
-          padding: 1vw;
-
-          em {
-            font-size: 1vw;
-            color: #ea3cfe;
-            font-family: "Antonio";
-            margin-bottom: 1vw;
-          }
-
-          span {
-            font-size: 1.5vw;
-            font-weight: bold;
-            font-family: "SCoreDream";
-            line-height: 1.5;
-          }
-
-          p {
-            font-family: "SCoreDream";
-            font-size: 0.8vw;
-            line-height: 1.5;
-          }
-        }
+      span {
+        display: inline-block;
+        margin-top: -1vw;
+        color: #fff;
+        background-color: #ea3cfd;
+        font-family: "Antonio", sans-serif;
+        font-size: 1.5vw;
+        padding: 0.3vw;
       }
     }
-    .text__box {
-      position: absolute;
-      display: flex;
-      justify-content: space-between;
-      width: 50%;
-      background-color: rgba(234, 60, 254, 0.3);
-      margin-top: 10vw;
-      padding: 1vw;
-      z-index: 10;
-      font-family: "SCoreDream";
-      border: 2px solid #ea3cfe;
-      border-radius: 10px;
-      top: 0;
-      right: 0;
 
-      .left {
-        align-items: center;
-        width: 20%;
+    .img__box2 {
+      left: 18%;
+    }
 
-        .intro__img {
-          width: 100px;
-          height: 100px;
-        }
+    .img__box3 {
+      left: 36%;
+    }
+  }
+  .box {
+    width: 40vw;
+    border: 1px solid #ea3cfd;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #ea3cfd4e;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50vw;
+    font-family: "SCoreDream";
+    .left {
+      width: 20%;
+      text-align: center;
 
-        span {
-          display: inline-block;
-          text-transform: uppercase;
-          background-color: #e418ff;
-          margin-top: 1vw;
-          color: #fff;
-          padding: 3px 10px;
-          font-family: "Audiowide";
-        }
+      span {
+        background-color: #ea3cfd;
+        color: #000;
+        text-transform: uppercase;
+        padding: 0px 8px;
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 14px;
       }
-      .right {
-        width: 80%;
+      em {
+        color: #ea3cfd;
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+    .right {
+      width: 75%;
+
+      h3 {
+        font-size: 20px;
         color: #fff;
-        margin-top: 2vw;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #ccc;
+        font-family: "SCoreDream";
       }
     }
   }
