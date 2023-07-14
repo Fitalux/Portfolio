@@ -7,8 +7,8 @@ gsap.to(sections, {
   scrollTrigger: {
     trigger: "#Allwork",
     pin: true,
-    scrub: 0.1,
-    snap: 0.1 / (sections.length - 1),
+    scrub: 0.03,
+    snap: 0.03 / (sections.length - 1),
     end: () => "+=" + document.querySelector("#Allwork").offsetWidth,
   },
 });

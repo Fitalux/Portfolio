@@ -40,7 +40,7 @@
       font-family: "Antonio", sans-serif;
       color: #fff;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       padding-left: 3vw;
       padding-right: 3vw;
       margin-top: 1vw;
@@ -48,14 +48,14 @@
       gap: 1.5rem;
 
       .script__Item {
-        width: 25vw;
+        width: 24vw;
         position: relative;
         display: block;
         background: hsla(0, 0%, 100%, 0.3);
 
         &:hover {
           opacity: 1;
-          background-color: rgb(75 225 164);
+          background-color: rgba(75, 225, 164, 0.5);
         }
       }
 
@@ -69,15 +69,10 @@
 
       .Item_background {
         position: absolute;
-        inset: 1px;
+        inset: 3px;
         z-index: 10;
         opacity: 1;
-        background: rgba(0, 0, 0, 0.3);
-
-        &:hover {
-          background-color: rgba(75, 225, 164, 0.1);
-          opacity: 1;
-        }
+        background-color: rgba(6, 17, 13, 0.2);
       }
 
       .Item_inner {
