@@ -5,7 +5,7 @@
   h2 {
     font-size: 10vw;
     line-height: 0.9;
-    color: #ea3cfd;
+    color: #8061ff;
     text-transform: uppercase;
     font-family: "Orbitron";
     padding-top: 10vw;
@@ -15,7 +15,7 @@
   .line__bottom {
     width: 100%;
     height: 2px;
-    background-color: #ea3cfd;
+    background-color: #8061ff;
     display: block;
     margin-top: 50px;
     position: relative;
@@ -24,7 +24,7 @@
     content: "";
     height: 20px;
     width: 2px;
-    background-color: #ea3cfd;
+    background-color: #8061ff;
     position: absolute;
     left: 0;
     top: 0;
@@ -33,7 +33,7 @@
     content: "";
     height: 20px;
     width: 2px;
-    background-color: #ea3cfd;
+    background-color: #8061ff;
     position: absolute;
     right: 0;
     top: -20px;
@@ -48,10 +48,10 @@
       width: 13vw;
       height: 13vw;
       position: absolute;
-      background-color: #ea3cfd4e;
+      background-color: rgba(128, 97, 255, 0.3);
       text-align: center;
       top: 40%;
-      border: 3px solid #ea3cfd;
+      border: 3px solid #8061ff;
       border-radius: 15px;
 
       img {
@@ -68,7 +68,7 @@
         display: inline-block;
         margin-top: -1vw;
         color: #fff;
-        background-color: #ea3cfd;
+        background-color: #8061ff;
         font-family: "Antonio", sans-serif;
         font-size: 1.5vw;
         padding: 0.3vw;
@@ -85,11 +85,11 @@
   }
   .box {
     width: 40vw;
-    border: 1px solid #ea3cfd;
+    border: 1px solid #8061ff;
     padding: 30px;
     margin-top: 50px;
     border-radius: 10px;
-    background-color: #ea3cfd4e;
+    background-color: rgba(128, 97, 255, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -100,7 +100,7 @@
       text-align: center;
 
       span {
-        background-color: #ea3cfd;
+        background-color: #8061ff;
         color: #000;
         text-transform: uppercase;
         padding: 0px 8px;
@@ -109,7 +109,7 @@
         font-size: 14px;
       }
       em {
-        color: #ea3cfd;
+        color: #8061ff;
         display: block;
         font-weight: bold;
         font-size: 14px;
