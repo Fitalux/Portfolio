@@ -1,10 +1,10 @@
 
 <img src="https://github.com/Fitalux/Portfolio/blob/main/src/assets/image/main.png" />
 
-##PORTFOLIO SITE<br>
+# PORTFOLIO SITE<br>
 이 사이트는 2월 13일에 시작된 (디지털컨버전스)JAVA기반 스마트웹&앱 개발 과정에서 배운 SCRIPT, SITE CODING의 결과물을 모아놓은 포트폴리오 사이트입니다.<br><br>
 
-##SCRIPT<br><br>
+# SCRIPT<br><br>
 
 MOUSE EFFECT (https://github.com/Fitalux/web2023/blob/main/javascript/mouse/mouseEffect01.html)<br>
 JAVASCRIPT와 GSAP를 사용하여 마우스 움직임에 따라 커서가 반응하여 동적인 효과를 주도록 구현한 SCRIPT EFFECT입니다.<br>
@@ -33,7 +33,7 @@ JAVASCRIPT를 사용하여 만든 SEARCH EFFECT로, CSS 속성을 input box에 �
 
 
 
-##SITE CODING<br><br>
+# SITE CODING<br><br>
 
 SITE PROJECT - REACT (https://github.com/Fitalux/site2023-react01)<br>
 SITE PROJECT - NEXT.JS()<br>
@@ -51,7 +51,7 @@ TEAM PROJECT (https://github.com/Fitalux/PHP-TEAM-PROJECT)<br><br><br><br>
 
 
 
-##사용된 스택<br>
+# 사용된 스택<br>
 ▶ vite(https://ko.vitejs.dev/) 를 사용하여 사이트를 번들링하고 관리하였습니다.<br>
 ▶ gsap(https://greensock.com/gsap) 를 이용하여 패럴랙스 효과를 구현하였습니다.<br>
 ▶ lenis(https://lenis.studiofreight.com/) 를 이용하여 스크롤이 부드럽게 움직이도록 합니다.<br>
